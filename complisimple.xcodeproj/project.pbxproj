@@ -64,6 +64,421 @@
 		74198F8A19C5DADA00927C4C /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TemplateIcon.icns; path = Utilities/TemplateIcon.icns; sourceTree = "<group>"; };
 		74198F8B19C5DADA00927C4C /* clupload_osx.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = clupload_osx.sh; path = Utilities/clupload_osx.sh; sourceTree = "<group>"; };
 		74198F8C19C5DADA00927C4C /* complisimple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = complisimple.cpp; sourceTree = "<group>"; };
+		745F86D919C5EE3D00CEA910 /* Adafruit_CC3000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adafruit_CC3000.cpp; sourceTree = "<group>"; };
+		745F86DA19C5EE3D00CEA910 /* Adafruit_CC3000.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adafruit_CC3000.h; sourceTree = "<group>"; };
+		745F86DB19C5EE3D00CEA910 /* Adafruit_CC3000_Server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adafruit_CC3000_Server.cpp; sourceTree = "<group>"; };
+		745F86DC19C5EE3D00CEA910 /* Adafruit_CC3000_Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adafruit_CC3000_Server.h; sourceTree = "<group>"; };
+		745F86DD19C5EE3D00CEA910 /* ccspi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ccspi.cpp; sourceTree = "<group>"; };
+		745F86DE19C5EE3D00CEA910 /* ccspi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ccspi.h; sourceTree = "<group>"; };
+		745F86E119C5EE3D00CEA910 /* buildtest.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = buildtest.ino; sourceTree = "<group>"; };
+		745F86E319C5EE3D00CEA910 /* ChatServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChatServer.ino; sourceTree = "<group>"; };
+		745F86E519C5EE3D00CEA910 /* driverpatch_1_12.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = driverpatch_1_12.ino; sourceTree = "<group>"; };
+		745F86E619C5EE3D00CEA910 /* driverpatchinc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = driverpatchinc.h; sourceTree = "<group>"; };
+		745F86E819C5EE3D00CEA910 /* driverpatch_1_13.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = driverpatch_1_13.ino; sourceTree = "<group>"; };
+		745F86E919C5EE3D00CEA910 /* driverpatchinc_1_13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = driverpatchinc_1_13.h; sourceTree = "<group>"; };
+		745F86EB19C5EE3D00CEA910 /* EchoServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EchoServer.ino; sourceTree = "<group>"; };
+		745F86ED19C5EE3D00CEA910 /* GeoLocation.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GeoLocation.ino; sourceTree = "<group>"; };
+		745F86EF19C5EE3D00CEA910 /* HTTPServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = HTTPServer.ino; sourceTree = "<group>"; };
+		745F86F119C5EE3D00CEA910 /* InternetTime.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = InternetTime.ino; sourceTree = "<group>"; };
+		745F86F319C5EE3D00CEA910 /* ntpTest.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ntpTest.ino; sourceTree = "<group>"; };
+		745F86F519C5EE3D00CEA910 /* SendTweet.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SendTweet.ino; sourceTree = "<group>"; };
+		745F86F719C5EE3D00CEA910 /* SmartConfigCreate.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartConfigCreate.ino; sourceTree = "<group>"; };
+		745F86F919C5EE3D00CEA910 /* SmartConfigReconnect.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartConfigReconnect.ino; sourceTree = "<group>"; };
+		745F86FB19C5EE3D00CEA910 /* WebClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WebClient.ino; sourceTree = "<group>"; };
+		745F86FC19C5EE3D00CEA910 /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		745F86FD19C5EE3D00CEA910 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		745F86FF19C5EE3D00CEA910 /* cc3000_common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cc3000_common.cpp; sourceTree = "<group>"; };
+		745F870019C5EE3D00CEA910 /* cc3000_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc3000_common.h; sourceTree = "<group>"; };
+		745F870119C5EE3D00CEA910 /* data_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data_types.h; sourceTree = "<group>"; };
+		745F870219C5EE3D00CEA910 /* debug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = debug.cpp; sourceTree = "<group>"; };
+		745F870319C5EE3D00CEA910 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		745F870419C5EE3D00CEA910 /* evnt_handler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = evnt_handler.cpp; sourceTree = "<group>"; };
+		745F870519C5EE3D00CEA910 /* evnt_handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = evnt_handler.h; sourceTree = "<group>"; };
+		745F870619C5EE3D00CEA910 /* hci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hci.cpp; sourceTree = "<group>"; };
+		745F870719C5EE3D00CEA910 /* hci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hci.h; sourceTree = "<group>"; };
+		745F870819C5EE3D00CEA910 /* host_driver_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = host_driver_version.h; sourceTree = "<group>"; };
+		745F870919C5EE3D00CEA910 /* netapp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = netapp.cpp; sourceTree = "<group>"; };
+		745F870A19C5EE3D00CEA910 /* netapp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netapp.h; sourceTree = "<group>"; };
+		745F870B19C5EE3D00CEA910 /* nvmem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nvmem.cpp; sourceTree = "<group>"; };
+		745F870C19C5EE3D00CEA910 /* nvmem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nvmem.h; sourceTree = "<group>"; };
+		745F870D19C5EE3D00CEA910 /* security.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = security.cpp; sourceTree = "<group>"; };
+		745F870E19C5EE3D00CEA910 /* security.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = security.h; sourceTree = "<group>"; };
+		745F870F19C5EE3D00CEA910 /* sntp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sntp.cpp; sourceTree = "<group>"; };
+		745F871019C5EE3D00CEA910 /* sntp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sntp.h; sourceTree = "<group>"; };
+		745F871119C5EE3D00CEA910 /* socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		745F871219C5EE3D00CEA910 /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		745F871319C5EE3D00CEA910 /* wlan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wlan.cpp; sourceTree = "<group>"; };
+		745F871419C5EE3D00CEA910 /* wlan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wlan.h; sourceTree = "<group>"; };
+		745F871619C5EF7900CEA910 /* EEPROM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EEPROM.cpp; sourceTree = "<group>"; };
+		745F871719C5EF7900CEA910 /* EEPROM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEPROM.h; sourceTree = "<group>"; };
+		745F871A19C5EF7900CEA910 /* eeprom_clear.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = eeprom_clear.ino; sourceTree = "<group>"; };
+		745F871C19C5EF7900CEA910 /* eeprom_read.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = eeprom_read.ino; sourceTree = "<group>"; };
+		745F871E19C5EF7900CEA910 /* eeprom_write.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = eeprom_write.ino; sourceTree = "<group>"; };
+		745F871F19C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F872119C5EF7900CEA910 /* Esplora.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Esplora.cpp; sourceTree = "<group>"; };
+		745F872219C5EF7900CEA910 /* Esplora.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Esplora.h; sourceTree = "<group>"; };
+		745F872619C5EF7900CEA910 /* EsploraAccelerometer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraAccelerometer.ino; sourceTree = "<group>"; };
+		745F872819C5EF7900CEA910 /* EsploraBlink.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraBlink.ino; sourceTree = "<group>"; };
+		745F872A19C5EF7900CEA910 /* EsploraJoystickMouse.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraJoystickMouse.ino; sourceTree = "<group>"; };
+		745F872C19C5EF7900CEA910 /* EsploraLedShow.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraLedShow.ino; sourceTree = "<group>"; };
+		745F872E19C5EF7900CEA910 /* EsploraLedShow2.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraLedShow2.ino; sourceTree = "<group>"; };
+		745F873019C5EF7900CEA910 /* EsploraLightCalibrator.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraLightCalibrator.ino; sourceTree = "<group>"; };
+		745F873219C5EF7900CEA910 /* EsploraMusic.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraMusic.ino; sourceTree = "<group>"; };
+		745F873419C5EF7900CEA910 /* EsploraSoundSensor.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraSoundSensor.ino; sourceTree = "<group>"; };
+		745F873619C5EF7900CEA910 /* EsploraTemperatureSensor.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTemperatureSensor.ino; sourceTree = "<group>"; };
+		745F873919C5EF7900CEA910 /* EsploraKart.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraKart.ino; sourceTree = "<group>"; };
+		745F873B19C5EF7900CEA910 /* EsploraPong.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraPong.ino; sourceTree = "<group>"; };
+		745F873D19C5EF7900CEA910 /* EsploraRemote.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraRemote.ino; sourceTree = "<group>"; };
+		745F873F19C5EF7900CEA910 /* EsploraTable.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTable.ino; sourceTree = "<group>"; };
+		745F874019C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F874219C5EF7900CEA910 /* Dhcp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dhcp.cpp; sourceTree = "<group>"; };
+		745F874319C5EF7900CEA910 /* Dhcp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dhcp.h; sourceTree = "<group>"; };
+		745F874419C5EF7900CEA910 /* Dns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dns.cpp; sourceTree = "<group>"; };
+		745F874519C5EF7900CEA910 /* Dns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dns.h; sourceTree = "<group>"; };
+		745F874619C5EF7900CEA910 /* Ethernet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ethernet.cpp; sourceTree = "<group>"; };
+		745F874719C5EF7900CEA910 /* Ethernet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ethernet.h; sourceTree = "<group>"; };
+		745F874819C5EF7900CEA910 /* EthernetClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EthernetClient.cpp; sourceTree = "<group>"; };
+		745F874919C5EF7900CEA910 /* EthernetClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EthernetClient.h; sourceTree = "<group>"; };
+		745F874A19C5EF7900CEA910 /* EthernetServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EthernetServer.cpp; sourceTree = "<group>"; };
+		745F874B19C5EF7900CEA910 /* EthernetServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EthernetServer.h; sourceTree = "<group>"; };
+		745F874C19C5EF7900CEA910 /* EthernetUdp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EthernetUdp.cpp; sourceTree = "<group>"; };
+		745F874D19C5EF7900CEA910 /* EthernetUdp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EthernetUdp.h; sourceTree = "<group>"; };
+		745F875019C5EF7900CEA910 /* BarometricPressureWebServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = BarometricPressureWebServer.ino; sourceTree = "<group>"; };
+		745F875219C5EF7900CEA910 /* ChatServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChatServer.ino; sourceTree = "<group>"; };
+		745F875419C5EF7900CEA910 /* DhcpAddressPrinter.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = DhcpAddressPrinter.ino; sourceTree = "<group>"; };
+		745F875619C5EF7900CEA910 /* DhcpChatServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = DhcpChatServer.ino; sourceTree = "<group>"; };
+		745F875819C5EF7900CEA910 /* PachubeClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = PachubeClient.ino; sourceTree = "<group>"; };
+		745F875A19C5EF7900CEA910 /* PachubeClientString.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = PachubeClientString.ino; sourceTree = "<group>"; };
+		745F875C19C5EF7900CEA910 /* TelnetClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TelnetClient.ino; sourceTree = "<group>"; };
+		745F875E19C5EF7900CEA910 /* TwitterClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwitterClient.ino; sourceTree = "<group>"; };
+		745F876019C5EF7900CEA910 /* UdpNtpClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = UdpNtpClient.ino; sourceTree = "<group>"; };
+		745F876219C5EF7900CEA910 /* UDPSendReceiveString.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = UDPSendReceiveString.ino; sourceTree = "<group>"; };
+		745F876419C5EF7900CEA910 /* WebClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WebClient.ino; sourceTree = "<group>"; };
+		745F876619C5EF7900CEA910 /* WebClientRepeating.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WebClientRepeating.ino; sourceTree = "<group>"; };
+		745F876819C5EF7900CEA910 /* WebServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WebServer.ino; sourceTree = "<group>"; };
+		745F876919C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F876A19C5EF7900CEA910 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		745F876C19C5EF7900CEA910 /* socket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		745F876D19C5EF7900CEA910 /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		745F876E19C5EF7900CEA910 /* w5100.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = w5100.cpp; sourceTree = "<group>"; };
+		745F876F19C5EF7900CEA910 /* w5100.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w5100.h; sourceTree = "<group>"; };
+		745F877119C5EF7900CEA910 /* Boards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boards.h; sourceTree = "<group>"; };
+		745F877419C5EF7900CEA910 /* AllInputsFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllInputsFirmata.ino; sourceTree = "<group>"; };
+		745F877619C5EF7900CEA910 /* AnalogFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = AnalogFirmata.ino; sourceTree = "<group>"; };
+		745F877819C5EF7900CEA910 /* EchoString.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EchoString.ino; sourceTree = "<group>"; };
+		745F877A19C5EF7900CEA910 /* I2CFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = I2CFirmata.ino; sourceTree = "<group>"; };
+		745F877C19C5EF7900CEA910 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		745F877D19C5EF7900CEA910 /* OldStandardFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = OldStandardFirmata.ino; sourceTree = "<group>"; };
+		745F877F19C5EF7900CEA910 /* ServoFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ServoFirmata.ino; sourceTree = "<group>"; };
+		745F878119C5EF7900CEA910 /* SimpleAnalogFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleAnalogFirmata.ino; sourceTree = "<group>"; };
+		745F878319C5EF7900CEA910 /* SimpleDigitalFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleDigitalFirmata.ino; sourceTree = "<group>"; };
+		745F878519C5EF7900CEA910 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		745F878619C5EF7900CEA910 /* StandardFirmata.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = StandardFirmata.ino; sourceTree = "<group>"; };
+		745F878719C5EF7900CEA910 /* Firmata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Firmata.cpp; sourceTree = "<group>"; };
+		745F878819C5EF7900CEA910 /* Firmata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firmata.h; sourceTree = "<group>"; };
+		745F878919C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F878A19C5EF7900CEA910 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		745F878B19C5EF7900CEA910 /* TODO.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		745F878F19C5EF7900CEA910 /* GSMPachubeClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GSMPachubeClient.ino; sourceTree = "<group>"; };
+		745F879119C5EF7900CEA910 /* GSMPachubeClientString.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GSMPachubeClientString.ino; sourceTree = "<group>"; };
+		745F879319C5EF7900CEA910 /* GsmTwitterClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GsmTwitterClient.ino; sourceTree = "<group>"; };
+		745F879519C5EF7900CEA910 /* GsmWebClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GsmWebClient.ino; sourceTree = "<group>"; };
+		745F879719C5EF7900CEA910 /* GsmWebServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GsmWebServer.ino; sourceTree = "<group>"; };
+		745F879919C5EF7900CEA910 /* MakeVoiceCall.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = MakeVoiceCall.ino; sourceTree = "<group>"; };
+		745F879B19C5EF7900CEA910 /* ReceiveSMS.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReceiveSMS.ino; sourceTree = "<group>"; };
+		745F879D19C5EF7900CEA910 /* ReceiveVoiceCall.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReceiveVoiceCall.ino; sourceTree = "<group>"; };
+		745F879F19C5EF7900CEA910 /* SendSMS.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SendSMS.ino; sourceTree = "<group>"; };
+		745F87A219C5EF7900CEA910 /* BandManagement.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = BandManagement.ino; sourceTree = "<group>"; };
+		745F87A419C5EF7900CEA910 /* GsmScanNetworks.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = GsmScanNetworks.ino; sourceTree = "<group>"; };
+		745F87A619C5EF7900CEA910 /* PinManagement.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = PinManagement.ino; sourceTree = "<group>"; };
+		745F87A819C5EF7900CEA910 /* TestGPRS.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestGPRS.ino; sourceTree = "<group>"; };
+		745F87AA19C5EF7900CEA910 /* TestModem.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestModem.ino; sourceTree = "<group>"; };
+		745F87AC19C5EF7900CEA910 /* TestWebServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestWebServer.ino; sourceTree = "<group>"; };
+		745F87AD19C5EF7900CEA910 /* GSM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM.h; sourceTree = "<group>"; };
+		745F87AE19C5EF7900CEA910 /* GSM3CircularBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3CircularBuffer.cpp; sourceTree = "<group>"; };
+		745F87AF19C5EF7900CEA910 /* GSM3CircularBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3CircularBuffer.h; sourceTree = "<group>"; };
+		745F87B019C5EF7900CEA910 /* GSM3MobileAccessProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileAccessProvider.cpp; sourceTree = "<group>"; };
+		745F87B119C5EF7900CEA910 /* GSM3MobileAccessProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileAccessProvider.h; sourceTree = "<group>"; };
+		745F87B219C5EF7900CEA910 /* GSM3MobileCellManagement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileCellManagement.cpp; sourceTree = "<group>"; };
+		745F87B319C5EF7900CEA910 /* GSM3MobileCellManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileCellManagement.h; sourceTree = "<group>"; };
+		745F87B419C5EF7900CEA910 /* GSM3MobileClientProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileClientProvider.cpp; sourceTree = "<group>"; };
+		745F87B519C5EF7900CEA910 /* GSM3MobileClientProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileClientProvider.h; sourceTree = "<group>"; };
+		745F87B619C5EF7900CEA910 /* GSM3MobileClientService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileClientService.cpp; sourceTree = "<group>"; };
+		745F87B719C5EF7900CEA910 /* GSM3MobileClientService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileClientService.h; sourceTree = "<group>"; };
+		745F87B819C5EF7900CEA910 /* GSM3MobileDataNetworkProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileDataNetworkProvider.cpp; sourceTree = "<group>"; };
+		745F87B919C5EF7900CEA910 /* GSM3MobileDataNetworkProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileDataNetworkProvider.h; sourceTree = "<group>"; };
+		745F87BA19C5EF7900CEA910 /* GSM3MobileMockupProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileMockupProvider.cpp; sourceTree = "<group>"; };
+		745F87BB19C5EF7900CEA910 /* GSM3MobileMockupProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileMockupProvider.h; sourceTree = "<group>"; };
+		745F87BC19C5EF7900CEA910 /* GSM3MobileNetworkProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileNetworkProvider.cpp; sourceTree = "<group>"; };
+		745F87BD19C5EF7900CEA910 /* GSM3MobileNetworkProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileNetworkProvider.h; sourceTree = "<group>"; };
+		745F87BE19C5EF7900CEA910 /* GSM3MobileNetworkRegistry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileNetworkRegistry.cpp; sourceTree = "<group>"; };
+		745F87BF19C5EF7900CEA910 /* GSM3MobileNetworkRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileNetworkRegistry.h; sourceTree = "<group>"; };
+		745F87C019C5EF7900CEA910 /* GSM3MobileServerProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileServerProvider.cpp; sourceTree = "<group>"; };
+		745F87C119C5EF7900CEA910 /* GSM3MobileServerProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileServerProvider.h; sourceTree = "<group>"; };
+		745F87C219C5EF7900CEA910 /* GSM3MobileServerService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileServerService.cpp; sourceTree = "<group>"; };
+		745F87C319C5EF7900CEA910 /* GSM3MobileServerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileServerService.h; sourceTree = "<group>"; };
+		745F87C419C5EF7900CEA910 /* GSM3MobileSMSProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileSMSProvider.cpp; sourceTree = "<group>"; };
+		745F87C519C5EF7900CEA910 /* GSM3MobileSMSProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileSMSProvider.h; sourceTree = "<group>"; };
+		745F87C619C5EF7900CEA910 /* GSM3MobileVoiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3MobileVoiceProvider.cpp; sourceTree = "<group>"; };
+		745F87C719C5EF7900CEA910 /* GSM3MobileVoiceProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3MobileVoiceProvider.h; sourceTree = "<group>"; };
+		745F87C819C5EF7900CEA910 /* GSM3ShieldV1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1.cpp; sourceTree = "<group>"; };
+		745F87C919C5EF7900CEA910 /* GSM3ShieldV1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1.h; sourceTree = "<group>"; };
+		745F87CA19C5EF7900CEA910 /* GSM3ShieldV1AccessProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1AccessProvider.cpp; sourceTree = "<group>"; };
+		745F87CB19C5EF7900CEA910 /* GSM3ShieldV1AccessProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1AccessProvider.h; sourceTree = "<group>"; };
+		745F87CC19C5EF7900CEA910 /* GSM3ShieldV1BandManagement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1BandManagement.cpp; sourceTree = "<group>"; };
+		745F87CD19C5EF7900CEA910 /* GSM3ShieldV1BandManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1BandManagement.h; sourceTree = "<group>"; };
+		745F87CE19C5EF7900CEA910 /* GSM3ShieldV1BaseProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1BaseProvider.cpp; sourceTree = "<group>"; };
+		745F87CF19C5EF7900CEA910 /* GSM3ShieldV1BaseProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1BaseProvider.h; sourceTree = "<group>"; };
+		745F87D019C5EF7900CEA910 /* GSM3ShieldV1CellManagement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1CellManagement.cpp; sourceTree = "<group>"; };
+		745F87D119C5EF7900CEA910 /* GSM3ShieldV1CellManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1CellManagement.h; sourceTree = "<group>"; };
+		745F87D219C5EF7900CEA910 /* GSM3ShieldV1ClientProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1ClientProvider.cpp; sourceTree = "<group>"; };
+		745F87D319C5EF7900CEA910 /* GSM3ShieldV1ClientProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1ClientProvider.h; sourceTree = "<group>"; };
+		745F87D419C5EF7900CEA910 /* GSM3ShieldV1DataNetworkProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1DataNetworkProvider.cpp; sourceTree = "<group>"; };
+		745F87D519C5EF7900CEA910 /* GSM3ShieldV1DataNetworkProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1DataNetworkProvider.h; sourceTree = "<group>"; };
+		745F87D619C5EF7900CEA910 /* GSM3ShieldV1DirectModemProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1DirectModemProvider.cpp; sourceTree = "<group>"; };
+		745F87D719C5EF7900CEA910 /* GSM3ShieldV1DirectModemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1DirectModemProvider.h; sourceTree = "<group>"; };
+		745F87D819C5EF7900CEA910 /* GSM3ShieldV1ModemCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1ModemCore.cpp; sourceTree = "<group>"; };
+		745F87D919C5EF7900CEA910 /* GSM3ShieldV1ModemCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1ModemCore.h; sourceTree = "<group>"; };
+		745F87DA19C5EF7900CEA910 /* GSM3ShieldV1ModemVerification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1ModemVerification.cpp; sourceTree = "<group>"; };
+		745F87DB19C5EF7900CEA910 /* GSM3ShieldV1ModemVerification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1ModemVerification.h; sourceTree = "<group>"; };
+		745F87DC19C5EF7900CEA910 /* GSM3ShieldV1MultiClientProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1MultiClientProvider.cpp; sourceTree = "<group>"; };
+		745F87DD19C5EF7900CEA910 /* GSM3ShieldV1MultiClientProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1MultiClientProvider.h; sourceTree = "<group>"; };
+		745F87DE19C5EF7900CEA910 /* GSM3ShieldV1MultiServerProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1MultiServerProvider.cpp; sourceTree = "<group>"; };
+		745F87DF19C5EF7900CEA910 /* GSM3ShieldV1MultiServerProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1MultiServerProvider.h; sourceTree = "<group>"; };
+		745F87E019C5EF7900CEA910 /* GSM3ShieldV1PinManagement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1PinManagement.cpp; sourceTree = "<group>"; };
+		745F87E119C5EF7900CEA910 /* GSM3ShieldV1PinManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1PinManagement.h; sourceTree = "<group>"; };
+		745F87E219C5EF7900CEA910 /* GSM3ShieldV1ScanNetworks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1ScanNetworks.cpp; sourceTree = "<group>"; };
+		745F87E319C5EF7900CEA910 /* GSM3ShieldV1ScanNetworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1ScanNetworks.h; sourceTree = "<group>"; };
+		745F87E419C5EF7900CEA910 /* GSM3ShieldV1ServerProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1ServerProvider.cpp; sourceTree = "<group>"; };
+		745F87E519C5EF7900CEA910 /* GSM3ShieldV1ServerProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1ServerProvider.h; sourceTree = "<group>"; };
+		745F87E619C5EF7900CEA910 /* GSM3ShieldV1SMSProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1SMSProvider.cpp; sourceTree = "<group>"; };
+		745F87E719C5EF7900CEA910 /* GSM3ShieldV1SMSProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1SMSProvider.h; sourceTree = "<group>"; };
+		745F87E819C5EF7900CEA910 /* GSM3ShieldV1VoiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3ShieldV1VoiceProvider.cpp; sourceTree = "<group>"; };
+		745F87E919C5EF7900CEA910 /* GSM3ShieldV1VoiceProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3ShieldV1VoiceProvider.h; sourceTree = "<group>"; };
+		745F87EA19C5EF7900CEA910 /* GSM3SMSService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3SMSService.cpp; sourceTree = "<group>"; };
+		745F87EB19C5EF7900CEA910 /* GSM3SMSService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3SMSService.h; sourceTree = "<group>"; };
+		745F87EC19C5EF7900CEA910 /* GSM3SoftSerial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3SoftSerial.cpp; sourceTree = "<group>"; };
+		745F87ED19C5EF7900CEA910 /* GSM3SoftSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3SoftSerial.h; sourceTree = "<group>"; };
+		745F87EE19C5EF7900CEA910 /* GSM3VoiceCallService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GSM3VoiceCallService.cpp; sourceTree = "<group>"; };
+		745F87EF19C5EF7900CEA910 /* GSM3VoiceCallService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSM3VoiceCallService.h; sourceTree = "<group>"; };
+		745F87F019C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F87F119C5EF7900CEA910 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		745F87F519C5EF7900CEA910 /* Autoscroll.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Autoscroll.ino; sourceTree = "<group>"; };
+		745F87F719C5EF7900CEA910 /* Blink.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Blink.ino; sourceTree = "<group>"; };
+		745F87F919C5EF7900CEA910 /* Cursor.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cursor.ino; sourceTree = "<group>"; };
+		745F87FB19C5EF7900CEA910 /* CustomCharacter.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = CustomCharacter.ino; sourceTree = "<group>"; };
+		745F87FD19C5EF7900CEA910 /* Display.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Display.ino; sourceTree = "<group>"; };
+		745F87FF19C5EF7900CEA910 /* HelloWorld.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = HelloWorld.ino; sourceTree = "<group>"; };
+		745F880119C5EF7900CEA910 /* Scroll.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Scroll.ino; sourceTree = "<group>"; };
+		745F880319C5EF7900CEA910 /* SerialDisplay.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SerialDisplay.ino; sourceTree = "<group>"; };
+		745F880519C5EF7900CEA910 /* setCursor.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = setCursor.ino; sourceTree = "<group>"; };
+		745F880719C5EF7900CEA910 /* TextDirection.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TextDirection.ino; sourceTree = "<group>"; };
+		745F880819C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F880919C5EF7900CEA910 /* LiquidCrystal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LiquidCrystal.cpp; sourceTree = "<group>"; };
+		745F880A19C5EF7900CEA910 /* LiquidCrystal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiquidCrystal.h; sourceTree = "<group>"; };
+		745F880C19C5EF7900CEA910 /* Adafruit_GFX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adafruit_GFX.cpp; sourceTree = "<group>"; };
+		745F880D19C5EF7900CEA910 /* Adafruit_GFX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adafruit_GFX.h; sourceTree = "<group>"; };
+		745F880E19C5EF7900CEA910 /* Arduino_LCD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arduino_LCD.cpp; sourceTree = "<group>"; };
+		745F880F19C5EF7900CEA910 /* Arduino_LCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arduino_LCD.h; sourceTree = "<group>"; };
+		745F881019C5EF7900CEA910 /* ArduinoRobot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArduinoRobot.cpp; sourceTree = "<group>"; };
+		745F881119C5EF7900CEA910 /* ArduinoRobot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArduinoRobot.h; sourceTree = "<group>"; };
+		745F881219C5EF7900CEA910 /* communication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = communication.cpp; sourceTree = "<group>"; };
+		745F881319C5EF7900CEA910 /* Compass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Compass.cpp; sourceTree = "<group>"; };
+		745F881419C5EF7900CEA910 /* Compass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compass.h; sourceTree = "<group>"; };
+		745F881519C5EF7900CEA910 /* EasyTransfer2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EasyTransfer2.cpp; sourceTree = "<group>"; };
+		745F881619C5EF7900CEA910 /* EasyTransfer2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyTransfer2.h; sourceTree = "<group>"; };
+		745F881719C5EF7900CEA910 /* EEPROM_I2C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EEPROM_I2C.cpp; sourceTree = "<group>"; };
+		745F881819C5EF7900CEA910 /* EEPROM_I2C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEPROM_I2C.h; sourceTree = "<group>"; };
+		745F881C19C5EF7900CEA910 /* R01_Logo.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R01_Logo.ino; sourceTree = "<group>"; };
+		745F881E19C5EF7900CEA910 /* R02_Line_Follow.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R02_Line_Follow.ino; sourceTree = "<group>"; };
+		745F882019C5EF7900CEA910 /* R03_Disco_Bot.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R03_Disco_Bot.ino; sourceTree = "<group>"; };
+		745F882219C5EF7900CEA910 /* R04_Compass.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R04_Compass.ino; sourceTree = "<group>"; };
+		745F882419C5EF7900CEA910 /* R05_Inputs.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R05_Inputs.ino; sourceTree = "<group>"; };
+		745F882619C5EF7900CEA910 /* R06_Wheel_Calibration.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R06_Wheel_Calibration.ino; sourceTree = "<group>"; };
+		745F882819C5EF7900CEA910 /* R07_Runaway_Robot.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R07_Runaway_Robot.ino; sourceTree = "<group>"; };
+		745F882A19C5EF7900CEA910 /* R08_Remote_Control.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R08_Remote_Control.ino; sourceTree = "<group>"; };
+		745F882C19C5EF7900CEA910 /* R09_Picture_Browser.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R09_Picture_Browser.ino; sourceTree = "<group>"; };
+		745F882E19C5EF7900CEA910 /* R10_Rescue.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R10_Rescue.ino; sourceTree = "<group>"; };
+		745F883019C5EF7900CEA910 /* R11_Hello_User.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = R11_Hello_User.ino; sourceTree = "<group>"; };
+		745F883319C5EF7900CEA910 /* AllIOPorts.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllIOPorts.ino; sourceTree = "<group>"; };
+		745F883519C5EF7900CEA910 /* Beep.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Beep.ino; sourceTree = "<group>"; };
+		745F883719C5EF7900CEA910 /* CleanEEPROM.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = CleanEEPROM.ino; sourceTree = "<group>"; };
+		745F883919C5EF7900CEA910 /* Compass.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Compass.ino; sourceTree = "<group>"; };
+		745F883B19C5EF7900CEA910 /* IRArray.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = IRArray.ino; sourceTree = "<group>"; };
+		745F883D19C5EF7900CEA910 /* keyboardTest.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = keyboardTest.ino; sourceTree = "<group>"; };
+		745F883E19C5EF7900CEA910 /* keyboardTest.ino.orig */ = {isa = PBXFileReference; lastKnownFileType = text; path = keyboardTest.ino.orig; sourceTree = "<group>"; };
+		745F884019C5EF7900CEA910 /* LCDDebugPrint.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = LCDDebugPrint.ino; sourceTree = "<group>"; };
+		745F884219C5EF7900CEA910 /* LCDPrint.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = LCDPrint.ino; sourceTree = "<group>"; };
+		745F884419C5EF7900CEA910 /* LCDWriteText.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = LCDWriteText.ino; sourceTree = "<group>"; };
+		745F884619C5EF7900CEA910 /* LineFollowWithPause.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = LineFollowWithPause.ino; sourceTree = "<group>"; };
+		745F884819C5EF7900CEA910 /* Melody.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Melody.ino; sourceTree = "<group>"; };
+		745F884A19C5EF7900CEA910 /* MotorTest.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = MotorTest.ino; sourceTree = "<group>"; };
+		745F884C19C5EF7900CEA910 /* SpeedByPotentiometer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpeedByPotentiometer.ino; sourceTree = "<group>"; };
+		745F884E19C5EF7900CEA910 /* TurnTest.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TurnTest.ino; sourceTree = "<group>"; };
+		745F884F19C5EF7900CEA910 /* TurnTest.ino.orig */ = {isa = PBXFileReference; lastKnownFileType = text; path = TurnTest.ino.orig; sourceTree = "<group>"; };
+		745F885019C5EF7900CEA910 /* Fat16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fat16.cpp; sourceTree = "<group>"; };
+		745F885119C5EF7900CEA910 /* Fat16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fat16.h; sourceTree = "<group>"; };
+		745F885219C5EF7900CEA910 /* Fat16Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fat16Config.h; sourceTree = "<group>"; };
+		745F885319C5EF7900CEA910 /* Fat16mainpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fat16mainpage.h; sourceTree = "<group>"; };
+		745F885419C5EF7900CEA910 /* Fat16util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fat16util.h; sourceTree = "<group>"; };
+		745F885519C5EF7900CEA910 /* FatStructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatStructs.h; sourceTree = "<group>"; };
+		745F885619C5EF7900CEA910 /* glcdfont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glcdfont.c; sourceTree = "<group>"; };
+		745F885719C5EF7900CEA910 /* helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
+		745F885819C5EF7900CEA910 /* information.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = information.cpp; sourceTree = "<group>"; };
+		745F885919C5EF7900CEA910 /* keyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keyboard.cpp; sourceTree = "<group>"; };
+		745F885A19C5EF7900CEA910 /* lcd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lcd.cpp; sourceTree = "<group>"; };
+		745F885B19C5EF7900CEA910 /* Melody.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Melody.cpp; sourceTree = "<group>"; };
+		745F885C19C5EF7900CEA910 /* Motors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Motors.cpp; sourceTree = "<group>"; };
+		745F885D19C5EF7900CEA910 /* Multiplexer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multiplexer.cpp; sourceTree = "<group>"; };
+		745F885E19C5EF7900CEA910 /* Multiplexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multiplexer.h; sourceTree = "<group>"; };
+		745F885F19C5EF7900CEA910 /* RobotSdCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobotSdCard.cpp; sourceTree = "<group>"; };
+		745F886019C5EF7900CEA910 /* SdCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SdCard.cpp; sourceTree = "<group>"; };
+		745F886119C5EF7900CEA910 /* SdCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SdCard.h; sourceTree = "<group>"; };
+		745F886219C5EF7900CEA910 /* SdInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SdInfo.h; sourceTree = "<group>"; };
+		745F886319C5EF7900CEA910 /* Sensors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sensors.cpp; sourceTree = "<group>"; };
+		745F886419C5EF7900CEA910 /* SPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SPI.cpp; sourceTree = "<group>"; };
+		745F886519C5EF7900CEA910 /* SPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPI.h; sourceTree = "<group>"; };
+		745F886619C5EF7900CEA910 /* Squawk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Squawk.cpp; sourceTree = "<group>"; };
+		745F886719C5EF7900CEA910 /* Squawk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Squawk.h; sourceTree = "<group>"; };
+		745F886819C5EF7900CEA910 /* SquawkSD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SquawkSD.cpp; sourceTree = "<group>"; };
+		745F886919C5EF7900CEA910 /* SquawkSD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquawkSD.h; sourceTree = "<group>"; };
+		745F886B19C5EF7900CEA910 /* RobotTextManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobotTextManager.cpp; sourceTree = "<group>"; };
+		745F886C19C5EF7900CEA910 /* RobotTextManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RobotTextManager.h; sourceTree = "<group>"; };
+		745F886D19C5EF7900CEA910 /* scripts_Hello_User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scripts_Hello_User.h; sourceTree = "<group>"; };
+		745F886E19C5EF7900CEA910 /* twi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twi.c; sourceTree = "<group>"; };
+		745F886F19C5EF7900CEA910 /* twi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twi.h; sourceTree = "<group>"; };
+		745F887019C5EF7900CEA910 /* VirtualKeyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualKeyboard.cpp; sourceTree = "<group>"; };
+		745F887119C5EF7900CEA910 /* VirtualKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualKeyboard.h; sourceTree = "<group>"; };
+		745F887219C5EF7900CEA910 /* Wire.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wire.cpp; sourceTree = "<group>"; };
+		745F887319C5EF7900CEA910 /* Wire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wire.h; sourceTree = "<group>"; };
+		745F887519C5EF7900CEA910 /* ArduinoRobotMotorBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArduinoRobotMotorBoard.cpp; sourceTree = "<group>"; };
+		745F887619C5EF7900CEA910 /* ArduinoRobotMotorBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArduinoRobotMotorBoard.h; sourceTree = "<group>"; };
+		745F887719C5EF7900CEA910 /* EasyTransfer2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EasyTransfer2.cpp; sourceTree = "<group>"; };
+		745F887819C5EF7900CEA910 /* EasyTransfer2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyTransfer2.h; sourceTree = "<group>"; };
+		745F887B19C5EF7900CEA910 /* Robot_IR_Array_Test.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Robot_IR_Array_Test.ino; sourceTree = "<group>"; };
+		745F887D19C5EF7900CEA910 /* Robot_Motor_Core.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Robot_Motor_Core.ino; sourceTree = "<group>"; };
+		745F887E19C5EF7900CEA910 /* lineFollow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lineFollow.cpp; sourceTree = "<group>"; };
+		745F887F19C5EF7900CEA910 /* LineFollow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineFollow.h; sourceTree = "<group>"; };
+		745F888019C5EF7900CEA910 /* Multiplexer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multiplexer.cpp; sourceTree = "<group>"; };
+		745F888119C5EF7900CEA910 /* Multiplexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multiplexer.h; sourceTree = "<group>"; };
+		745F888519C5EF7900CEA910 /* CardInfo.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = CardInfo.ino; sourceTree = "<group>"; };
+		745F888719C5EF7900CEA910 /* Datalogger.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Datalogger.ino; sourceTree = "<group>"; };
+		745F888919C5EF7900CEA910 /* DumpFile.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = DumpFile.ino; sourceTree = "<group>"; };
+		745F888B19C5EF7900CEA910 /* Files.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Files.ino; sourceTree = "<group>"; };
+		745F888D19C5EF7900CEA910 /* listfiles.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = listfiles.ino; sourceTree = "<group>"; };
+		745F888F19C5EF7900CEA910 /* ReadWrite.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadWrite.ino; sourceTree = "<group>"; };
+		745F889019C5EF7900CEA910 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		745F889119C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F889219C5EF7900CEA910 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		745F889319C5EF7900CEA910 /* SD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SD.cpp; sourceTree = "<group>"; };
+		745F889419C5EF7900CEA910 /* SD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SD.h; sourceTree = "<group>"; };
+		745F889619C5EF7900CEA910 /* FatStructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatStructs.h; sourceTree = "<group>"; };
+		745F889719C5EF7900CEA910 /* Sd2Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sd2Card.cpp; sourceTree = "<group>"; };
+		745F889819C5EF7900CEA910 /* Sd2Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sd2Card.h; sourceTree = "<group>"; };
+		745F889919C5EF7900CEA910 /* Sd2PinMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sd2PinMap.h; sourceTree = "<group>"; };
+		745F889A19C5EF7900CEA910 /* SdFat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SdFat.h; sourceTree = "<group>"; };
+		745F889B19C5EF7900CEA910 /* SdFatmainpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SdFatmainpage.h; sourceTree = "<group>"; };
+		745F889C19C5EF7900CEA910 /* SdFatUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SdFatUtil.h; sourceTree = "<group>"; };
+		745F889D19C5EF7900CEA910 /* SdFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SdFile.cpp; sourceTree = "<group>"; };
+		745F889E19C5EF7900CEA910 /* SdInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SdInfo.h; sourceTree = "<group>"; };
+		745F889F19C5EF7900CEA910 /* SdVolume.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SdVolume.cpp; sourceTree = "<group>"; };
+		745F88A319C5EF7900CEA910 /* Knob.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Knob.ino; sourceTree = "<group>"; };
+		745F88A519C5EF7900CEA910 /* Sweep.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sweep.ino; sourceTree = "<group>"; };
+		745F88A619C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F88A719C5EF7900CEA910 /* Servo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Servo.cpp; sourceTree = "<group>"; };
+		745F88A819C5EF7900CEA910 /* Servo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Servo.h; sourceTree = "<group>"; };
+		745F88AC19C5EF7900CEA910 /* SoftwareSerialExample.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SoftwareSerialExample.ino; sourceTree = "<group>"; };
+		745F88AE19C5EF7900CEA910 /* TwoPortReceive.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TwoPortReceive.ino; sourceTree = "<group>"; };
+		745F88AF19C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F88B019C5EF7900CEA910 /* SoftwareSerial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoftwareSerial.cpp; sourceTree = "<group>"; };
+		745F88B119C5EF7900CEA910 /* SoftwareSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareSerial.h; sourceTree = "<group>"; };
+		745F88B619C5EF7900CEA910 /* BarometricPressureSensor.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = BarometricPressureSensor.ino; sourceTree = "<group>"; };
+		745F88B719C5EF7900CEA910 /* BarometricPressureSensor.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = BarometricPressureSensor.ino; sourceTree = "<group>"; };
+		745F88B919C5EF7900CEA910 /* DigitalPotControl.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = DigitalPotControl.ino; sourceTree = "<group>"; };
+		745F88BA19C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F88BB19C5EF7900CEA910 /* SPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SPI.cpp; sourceTree = "<group>"; };
+		745F88BC19C5EF7900CEA910 /* SPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPI.h; sourceTree = "<group>"; };
+		745F88C019C5EF7900CEA910 /* MotorKnob.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = MotorKnob.ino; sourceTree = "<group>"; };
+		745F88C219C5EF7900CEA910 /* stepper_oneRevolution.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = stepper_oneRevolution.ino; sourceTree = "<group>"; };
+		745F88C419C5EF7900CEA910 /* stepper_oneStepAtATime.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = stepper_oneStepAtATime.ino; sourceTree = "<group>"; };
+		745F88C619C5EF7900CEA910 /* stepper_speedControl.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = stepper_speedControl.ino; sourceTree = "<group>"; };
+		745F88C719C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F88C819C5EF7900CEA910 /* Stepper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stepper.cpp; sourceTree = "<group>"; };
+		745F88C919C5EF7900CEA910 /* Stepper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stepper.h; sourceTree = "<group>"; };
+		745F88CE19C5EF7900CEA910 /* arduino.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = arduino.bmp; sourceTree = "<group>"; };
+		745F88CF19C5EF7900CEA910 /* TFTBitmapLogo.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TFTBitmapLogo.ino; sourceTree = "<group>"; };
+		745F88D119C5EF7900CEA910 /* TFTColorPicker.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TFTColorPicker.ino; sourceTree = "<group>"; };
+		745F88D319C5EF7900CEA910 /* TFTDisplayText.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TFTDisplayText.ino; sourceTree = "<group>"; };
+		745F88D519C5EF7900CEA910 /* TFTEtchASketch.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TFTEtchASketch.ino; sourceTree = "<group>"; };
+		745F88D719C5EF7900CEA910 /* TFTGraph.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TFTGraph.ino; sourceTree = "<group>"; };
+		745F88D919C5EF7900CEA910 /* TFTPong.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = TFTPong.ino; sourceTree = "<group>"; };
+		745F88DC19C5EF7900CEA910 /* arduino.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = arduino.bmp; sourceTree = "<group>"; };
+		745F88DD19C5EF7900CEA910 /* EsploraTFTBitmapLogo.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTBitmapLogo.ino; sourceTree = "<group>"; };
+		745F88DF19C5EF7900CEA910 /* EsploraTFTColorPicker.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTColorPicker.ino; sourceTree = "<group>"; };
+		745F88E119C5EF7900CEA910 /* EsploraTFTEtchASketch.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTEtchASketch.ino; sourceTree = "<group>"; };
+		745F88E319C5EF7900CEA910 /* EsploraTFTGraph.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTGraph.ino; sourceTree = "<group>"; };
+		745F88E519C5EF7900CEA910 /* EsploraTFTHorizion.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTHorizion.ino; sourceTree = "<group>"; };
+		745F88E719C5EF7900CEA910 /* EsploraTFTPong.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTPong.ino; sourceTree = "<group>"; };
+		745F88E919C5EF7900CEA910 /* EsploraTFTTemp.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = EsploraTFTTemp.ino; sourceTree = "<group>"; };
+		745F88EA19C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F88EB19C5EF7900CEA910 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		745F88EC19C5EF7900CEA910 /* TFT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TFT.cpp; sourceTree = "<group>"; };
+		745F88ED19C5EF7900CEA910 /* TFT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFT.h; sourceTree = "<group>"; };
+		745F88EF19C5EF7900CEA910 /* Adafruit-license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Adafruit-license.txt"; sourceTree = "<group>"; };
+		745F88F019C5EF7900CEA910 /* Adafruit-README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Adafruit-README.txt"; sourceTree = "<group>"; };
+		745F88F119C5EF7900CEA910 /* Adafruit_GFX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adafruit_GFX.cpp; sourceTree = "<group>"; };
+		745F88F219C5EF7900CEA910 /* Adafruit_GFX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adafruit_GFX.h; sourceTree = "<group>"; };
+		745F88F319C5EF7900CEA910 /* Adafruit_ST7735.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Adafruit_ST7735.cpp; sourceTree = "<group>"; };
+		745F88F419C5EF7900CEA910 /* Adafruit_ST7735.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adafruit_ST7735.h; sourceTree = "<group>"; };
+		745F88F519C5EF7900CEA910 /* glcdfont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glcdfont.c; sourceTree = "<group>"; };
+		745F88F619C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F88F719C5EF7900CEA910 /* PImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PImage.h; sourceTree = "<group>"; };
+		745F88FB19C5EF7900CEA910 /* ConnectNoEncryption.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConnectNoEncryption.ino; sourceTree = "<group>"; };
+		745F88FD19C5EF7900CEA910 /* ConnectWithWEP.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConnectWithWEP.ino; sourceTree = "<group>"; };
+		745F88FF19C5EF7900CEA910 /* ConnectWithWPA.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConnectWithWPA.ino; sourceTree = "<group>"; };
+		745F890119C5EF7900CEA910 /* ScanNetworks.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScanNetworks.ino; sourceTree = "<group>"; };
+		745F890319C5EF7900CEA910 /* SimpleWebServerWiFi.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleWebServerWiFi.ino; sourceTree = "<group>"; };
+		745F890519C5EF7900CEA910 /* WiFiChatServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiChatServer.ino; sourceTree = "<group>"; };
+		745F890719C5EF7900CEA910 /* WiFiPachubeClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiPachubeClient.ino; sourceTree = "<group>"; };
+		745F890919C5EF7900CEA910 /* WiFiPachubeClientString.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiPachubeClientString.ino; sourceTree = "<group>"; };
+		745F890B19C5EF7900CEA910 /* WiFiTwitterClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiTwitterClient.ino; sourceTree = "<group>"; };
+		745F890D19C5EF7900CEA910 /* WiFiUdpNtpClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiUdpNtpClient.ino; sourceTree = "<group>"; };
+		745F890F19C5EF7900CEA910 /* WiFiUdpSendReceiveString.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiUdpSendReceiveString.ino; sourceTree = "<group>"; };
+		745F891119C5EF7900CEA910 /* WiFiWebClient.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiWebClient.ino; sourceTree = "<group>"; };
+		745F891319C5EF7900CEA910 /* WiFiWebClientRepeating.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiWebClientRepeating.ino; sourceTree = "<group>"; };
+		745F891519C5EF7900CEA910 /* WiFiWebServer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = WiFiWebServer.ino; sourceTree = "<group>"; };
+		745F891619C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F891819C5EF7900CEA910 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		745F891919C5EF7900CEA910 /* server_drv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = server_drv.cpp; sourceTree = "<group>"; };
+		745F891A19C5EF7900CEA910 /* server_drv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = server_drv.h; sourceTree = "<group>"; };
+		745F891B19C5EF7900CEA910 /* socket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		745F891C19C5EF7900CEA910 /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		745F891D19C5EF7900CEA910 /* spi_drv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spi_drv.cpp; sourceTree = "<group>"; };
+		745F891E19C5EF7900CEA910 /* spi_drv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spi_drv.h; sourceTree = "<group>"; };
+		745F891F19C5EF7900CEA910 /* wifi_drv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wifi_drv.cpp; sourceTree = "<group>"; };
+		745F892019C5EF7900CEA910 /* wifi_drv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wifi_drv.h; sourceTree = "<group>"; };
+		745F892119C5EF7900CEA910 /* wifi_spi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wifi_spi.h; sourceTree = "<group>"; };
+		745F892219C5EF7900CEA910 /* wl_definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wl_definitions.h; sourceTree = "<group>"; };
+		745F892319C5EF7900CEA910 /* wl_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wl_types.h; sourceTree = "<group>"; };
+		745F892419C5EF7900CEA910 /* WiFi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFi.cpp; sourceTree = "<group>"; };
+		745F892519C5EF7900CEA910 /* WiFi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFi.h; sourceTree = "<group>"; };
+		745F892619C5EF7900CEA910 /* WiFiClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFiClient.cpp; sourceTree = "<group>"; };
+		745F892719C5EF7900CEA910 /* WiFiClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiClient.h; sourceTree = "<group>"; };
+		745F892819C5EF7900CEA910 /* WiFiServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFiServer.cpp; sourceTree = "<group>"; };
+		745F892919C5EF7900CEA910 /* WiFiServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiServer.h; sourceTree = "<group>"; };
+		745F892A19C5EF7900CEA910 /* WiFiUdp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WiFiUdp.cpp; sourceTree = "<group>"; };
+		745F892B19C5EF7900CEA910 /* WiFiUdp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiUdp.h; sourceTree = "<group>"; };
+		745F892F19C5EF7900CEA910 /* digital_potentiometer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = digital_potentiometer.ino; sourceTree = "<group>"; };
+		745F893119C5EF7900CEA910 /* master_reader.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = master_reader.ino; sourceTree = "<group>"; };
+		745F893319C5EF7900CEA910 /* master_writer.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = master_writer.ino; sourceTree = "<group>"; };
+		745F893519C5EF7900CEA910 /* SFRRanger_reader.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFRRanger_reader.ino; sourceTree = "<group>"; };
+		745F893719C5EF7900CEA910 /* slave_receiver.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = slave_receiver.ino; sourceTree = "<group>"; };
+		745F893919C5EF7900CEA910 /* slave_sender.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = slave_sender.ino; sourceTree = "<group>"; };
+		745F893A19C5EF7900CEA910 /* keywords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		745F893C19C5EF7900CEA910 /* twi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twi.c; sourceTree = "<group>"; };
+		745F893D19C5EF7900CEA910 /* twi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twi.h; sourceTree = "<group>"; };
+		745F893E19C5EF7900CEA910 /* Wire.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wire.cpp; sourceTree = "<group>"; };
+		745F893F19C5EF7900CEA910 /* Wire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wire.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -102,6 +517,23 @@
 		74198F5819C5DADA00927C4C /* Sketchbook */ = {
 			isa = PBXGroup;
 			children = (
+				745F871519C5EF7900CEA910 /* EEPROM */,
+				745F872019C5EF7900CEA910 /* Esplora */,
+				745F874119C5EF7900CEA910 /* Ethernet */,
+				745F877019C5EF7900CEA910 /* Firmata */,
+				745F878C19C5EF7900CEA910 /* GSM */,
+				745F87F219C5EF7900CEA910 /* LiquidCrystal */,
+				745F880B19C5EF7900CEA910 /* Robot_Control */,
+				745F887419C5EF7900CEA910 /* Robot_Motor */,
+				745F888219C5EF7900CEA910 /* SD */,
+				745F88A019C5EF7900CEA910 /* Servo */,
+				745F88A919C5EF7900CEA910 /* SoftwareSerial */,
+				745F88B219C5EF7900CEA910 /* SPI */,
+				745F88BD19C5EF7900CEA910 /* Stepper */,
+				745F88CA19C5EF7900CEA910 /* TFT */,
+				745F88F819C5EF7900CEA910 /* WiFi */,
+				745F892C19C5EF7900CEA910 /* Wire */,
+				745F86D819C5EE3D00CEA910 /* Adafruit_CC3000 */,
 				74198F5919C5DADA00927C4C /* Sketchbook.txt */,
 			);
 			name = Sketchbook;
@@ -178,6 +610,2012 @@
 				74198F8B19C5DADA00927C4C /* clupload_osx.sh */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		745F86D819C5EE3D00CEA910 /* Adafruit_CC3000 */ = {
+			isa = PBXGroup;
+			children = (
+				745F86D919C5EE3D00CEA910 /* Adafruit_CC3000.cpp */,
+				745F86DA19C5EE3D00CEA910 /* Adafruit_CC3000.h */,
+				745F86DB19C5EE3D00CEA910 /* Adafruit_CC3000_Server.cpp */,
+				745F86DC19C5EE3D00CEA910 /* Adafruit_CC3000_Server.h */,
+				745F86DD19C5EE3D00CEA910 /* ccspi.cpp */,
+				745F86DE19C5EE3D00CEA910 /* ccspi.h */,
+				745F86DF19C5EE3D00CEA910 /* examples */,
+				745F86FC19C5EE3D00CEA910 /* license.txt */,
+				745F86FD19C5EE3D00CEA910 /* README.txt */,
+				745F86FE19C5EE3D00CEA910 /* utility */,
+			);
+			path = Adafruit_CC3000;
+			sourceTree = "<group>";
+		};
+		745F86DF19C5EE3D00CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F86E019C5EE3D00CEA910 /* buildtest */,
+				745F86E219C5EE3D00CEA910 /* ChatServer */,
+				745F86E419C5EE3D00CEA910 /* driverpatch_1_12 */,
+				745F86E719C5EE3D00CEA910 /* driverpatch_1_13 */,
+				745F86EA19C5EE3D00CEA910 /* EchoServer */,
+				745F86EC19C5EE3D00CEA910 /* GeoLocation */,
+				745F86EE19C5EE3D00CEA910 /* HTTPServer */,
+				745F86F019C5EE3D00CEA910 /* InternetTime */,
+				745F86F219C5EE3D00CEA910 /* ntpTest */,
+				745F86F419C5EE3D00CEA910 /* SendTweet */,
+				745F86F619C5EE3D00CEA910 /* SmartConfigCreate */,
+				745F86F819C5EE3D00CEA910 /* SmartConfigReconnect */,
+				745F86FA19C5EE3D00CEA910 /* WebClient */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F86E019C5EE3D00CEA910 /* buildtest */ = {
+			isa = PBXGroup;
+			children = (
+				745F86E119C5EE3D00CEA910 /* buildtest.ino */,
+			);
+			path = buildtest;
+			sourceTree = "<group>";
+		};
+		745F86E219C5EE3D00CEA910 /* ChatServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F86E319C5EE3D00CEA910 /* ChatServer.ino */,
+			);
+			path = ChatServer;
+			sourceTree = "<group>";
+		};
+		745F86E419C5EE3D00CEA910 /* driverpatch_1_12 */ = {
+			isa = PBXGroup;
+			children = (
+				745F86E519C5EE3D00CEA910 /* driverpatch_1_12.ino */,
+				745F86E619C5EE3D00CEA910 /* driverpatchinc.h */,
+			);
+			path = driverpatch_1_12;
+			sourceTree = "<group>";
+		};
+		745F86E719C5EE3D00CEA910 /* driverpatch_1_13 */ = {
+			isa = PBXGroup;
+			children = (
+				745F86E819C5EE3D00CEA910 /* driverpatch_1_13.ino */,
+				745F86E919C5EE3D00CEA910 /* driverpatchinc_1_13.h */,
+			);
+			path = driverpatch_1_13;
+			sourceTree = "<group>";
+		};
+		745F86EA19C5EE3D00CEA910 /* EchoServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F86EB19C5EE3D00CEA910 /* EchoServer.ino */,
+			);
+			path = EchoServer;
+			sourceTree = "<group>";
+		};
+		745F86EC19C5EE3D00CEA910 /* GeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				745F86ED19C5EE3D00CEA910 /* GeoLocation.ino */,
+			);
+			path = GeoLocation;
+			sourceTree = "<group>";
+		};
+		745F86EE19C5EE3D00CEA910 /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F86EF19C5EE3D00CEA910 /* HTTPServer.ino */,
+			);
+			path = HTTPServer;
+			sourceTree = "<group>";
+		};
+		745F86F019C5EE3D00CEA910 /* InternetTime */ = {
+			isa = PBXGroup;
+			children = (
+				745F86F119C5EE3D00CEA910 /* InternetTime.ino */,
+			);
+			path = InternetTime;
+			sourceTree = "<group>";
+		};
+		745F86F219C5EE3D00CEA910 /* ntpTest */ = {
+			isa = PBXGroup;
+			children = (
+				745F86F319C5EE3D00CEA910 /* ntpTest.ino */,
+			);
+			path = ntpTest;
+			sourceTree = "<group>";
+		};
+		745F86F419C5EE3D00CEA910 /* SendTweet */ = {
+			isa = PBXGroup;
+			children = (
+				745F86F519C5EE3D00CEA910 /* SendTweet.ino */,
+			);
+			path = SendTweet;
+			sourceTree = "<group>";
+		};
+		745F86F619C5EE3D00CEA910 /* SmartConfigCreate */ = {
+			isa = PBXGroup;
+			children = (
+				745F86F719C5EE3D00CEA910 /* SmartConfigCreate.ino */,
+			);
+			path = SmartConfigCreate;
+			sourceTree = "<group>";
+		};
+		745F86F819C5EE3D00CEA910 /* SmartConfigReconnect */ = {
+			isa = PBXGroup;
+			children = (
+				745F86F919C5EE3D00CEA910 /* SmartConfigReconnect.ino */,
+			);
+			path = SmartConfigReconnect;
+			sourceTree = "<group>";
+		};
+		745F86FA19C5EE3D00CEA910 /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F86FB19C5EE3D00CEA910 /* WebClient.ino */,
+			);
+			path = WebClient;
+			sourceTree = "<group>";
+		};
+		745F86FE19C5EE3D00CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F86FF19C5EE3D00CEA910 /* cc3000_common.cpp */,
+				745F870019C5EE3D00CEA910 /* cc3000_common.h */,
+				745F870119C5EE3D00CEA910 /* data_types.h */,
+				745F870219C5EE3D00CEA910 /* debug.cpp */,
+				745F870319C5EE3D00CEA910 /* debug.h */,
+				745F870419C5EE3D00CEA910 /* evnt_handler.cpp */,
+				745F870519C5EE3D00CEA910 /* evnt_handler.h */,
+				745F870619C5EE3D00CEA910 /* hci.cpp */,
+				745F870719C5EE3D00CEA910 /* hci.h */,
+				745F870819C5EE3D00CEA910 /* host_driver_version.h */,
+				745F870919C5EE3D00CEA910 /* netapp.cpp */,
+				745F870A19C5EE3D00CEA910 /* netapp.h */,
+				745F870B19C5EE3D00CEA910 /* nvmem.cpp */,
+				745F870C19C5EE3D00CEA910 /* nvmem.h */,
+				745F870D19C5EE3D00CEA910 /* security.cpp */,
+				745F870E19C5EE3D00CEA910 /* security.h */,
+				745F870F19C5EE3D00CEA910 /* sntp.cpp */,
+				745F871019C5EE3D00CEA910 /* sntp.h */,
+				745F871119C5EE3D00CEA910 /* socket.cpp */,
+				745F871219C5EE3D00CEA910 /* socket.h */,
+				745F871319C5EE3D00CEA910 /* wlan.cpp */,
+				745F871419C5EE3D00CEA910 /* wlan.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		745F871519C5EF7900CEA910 /* EEPROM */ = {
+			isa = PBXGroup;
+			children = (
+				745F871619C5EF7900CEA910 /* EEPROM.cpp */,
+				745F871719C5EF7900CEA910 /* EEPROM.h */,
+				745F871819C5EF7900CEA910 /* examples */,
+				745F871F19C5EF7900CEA910 /* keywords.txt */,
+			);
+			path = EEPROM;
+			sourceTree = "<group>";
+		};
+		745F871819C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F871919C5EF7900CEA910 /* eeprom_clear */,
+				745F871B19C5EF7900CEA910 /* eeprom_read */,
+				745F871D19C5EF7900CEA910 /* eeprom_write */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F871919C5EF7900CEA910 /* eeprom_clear */ = {
+			isa = PBXGroup;
+			children = (
+				745F871A19C5EF7900CEA910 /* eeprom_clear.ino */,
+			);
+			path = eeprom_clear;
+			sourceTree = "<group>";
+		};
+		745F871B19C5EF7900CEA910 /* eeprom_read */ = {
+			isa = PBXGroup;
+			children = (
+				745F871C19C5EF7900CEA910 /* eeprom_read.ino */,
+			);
+			path = eeprom_read;
+			sourceTree = "<group>";
+		};
+		745F871D19C5EF7900CEA910 /* eeprom_write */ = {
+			isa = PBXGroup;
+			children = (
+				745F871E19C5EF7900CEA910 /* eeprom_write.ino */,
+			);
+			path = eeprom_write;
+			sourceTree = "<group>";
+		};
+		745F872019C5EF7900CEA910 /* Esplora */ = {
+			isa = PBXGroup;
+			children = (
+				745F872119C5EF7900CEA910 /* Esplora.cpp */,
+				745F872219C5EF7900CEA910 /* Esplora.h */,
+				745F872319C5EF7900CEA910 /* examples */,
+				745F874019C5EF7900CEA910 /* keywords.txt */,
+			);
+			path = Esplora;
+			sourceTree = "<group>";
+		};
+		745F872319C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F872419C5EF7900CEA910 /* Beginners */,
+				745F873719C5EF7900CEA910 /* Experts */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F872419C5EF7900CEA910 /* Beginners */ = {
+			isa = PBXGroup;
+			children = (
+				745F872519C5EF7900CEA910 /* EsploraAccelerometer */,
+				745F872719C5EF7900CEA910 /* EsploraBlink */,
+				745F872919C5EF7900CEA910 /* EsploraJoystickMouse */,
+				745F872B19C5EF7900CEA910 /* EsploraLedShow */,
+				745F872D19C5EF7900CEA910 /* EsploraLedShow2 */,
+				745F872F19C5EF7900CEA910 /* EsploraLightCalibrator */,
+				745F873119C5EF7900CEA910 /* EsploraMusic */,
+				745F873319C5EF7900CEA910 /* EsploraSoundSensor */,
+				745F873519C5EF7900CEA910 /* EsploraTemperatureSensor */,
+			);
+			path = Beginners;
+			sourceTree = "<group>";
+		};
+		745F872519C5EF7900CEA910 /* EsploraAccelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				745F872619C5EF7900CEA910 /* EsploraAccelerometer.ino */,
+			);
+			path = EsploraAccelerometer;
+			sourceTree = "<group>";
+		};
+		745F872719C5EF7900CEA910 /* EsploraBlink */ = {
+			isa = PBXGroup;
+			children = (
+				745F872819C5EF7900CEA910 /* EsploraBlink.ino */,
+			);
+			path = EsploraBlink;
+			sourceTree = "<group>";
+		};
+		745F872919C5EF7900CEA910 /* EsploraJoystickMouse */ = {
+			isa = PBXGroup;
+			children = (
+				745F872A19C5EF7900CEA910 /* EsploraJoystickMouse.ino */,
+			);
+			path = EsploraJoystickMouse;
+			sourceTree = "<group>";
+		};
+		745F872B19C5EF7900CEA910 /* EsploraLedShow */ = {
+			isa = PBXGroup;
+			children = (
+				745F872C19C5EF7900CEA910 /* EsploraLedShow.ino */,
+			);
+			path = EsploraLedShow;
+			sourceTree = "<group>";
+		};
+		745F872D19C5EF7900CEA910 /* EsploraLedShow2 */ = {
+			isa = PBXGroup;
+			children = (
+				745F872E19C5EF7900CEA910 /* EsploraLedShow2.ino */,
+			);
+			path = EsploraLedShow2;
+			sourceTree = "<group>";
+		};
+		745F872F19C5EF7900CEA910 /* EsploraLightCalibrator */ = {
+			isa = PBXGroup;
+			children = (
+				745F873019C5EF7900CEA910 /* EsploraLightCalibrator.ino */,
+			);
+			path = EsploraLightCalibrator;
+			sourceTree = "<group>";
+		};
+		745F873119C5EF7900CEA910 /* EsploraMusic */ = {
+			isa = PBXGroup;
+			children = (
+				745F873219C5EF7900CEA910 /* EsploraMusic.ino */,
+			);
+			path = EsploraMusic;
+			sourceTree = "<group>";
+		};
+		745F873319C5EF7900CEA910 /* EsploraSoundSensor */ = {
+			isa = PBXGroup;
+			children = (
+				745F873419C5EF7900CEA910 /* EsploraSoundSensor.ino */,
+			);
+			path = EsploraSoundSensor;
+			sourceTree = "<group>";
+		};
+		745F873519C5EF7900CEA910 /* EsploraTemperatureSensor */ = {
+			isa = PBXGroup;
+			children = (
+				745F873619C5EF7900CEA910 /* EsploraTemperatureSensor.ino */,
+			);
+			path = EsploraTemperatureSensor;
+			sourceTree = "<group>";
+		};
+		745F873719C5EF7900CEA910 /* Experts */ = {
+			isa = PBXGroup;
+			children = (
+				745F873819C5EF7900CEA910 /* EsploraKart */,
+				745F873A19C5EF7900CEA910 /* EsploraPong */,
+				745F873C19C5EF7900CEA910 /* EsploraRemote */,
+				745F873E19C5EF7900CEA910 /* EsploraTable */,
+			);
+			path = Experts;
+			sourceTree = "<group>";
+		};
+		745F873819C5EF7900CEA910 /* EsploraKart */ = {
+			isa = PBXGroup;
+			children = (
+				745F873919C5EF7900CEA910 /* EsploraKart.ino */,
+			);
+			path = EsploraKart;
+			sourceTree = "<group>";
+		};
+		745F873A19C5EF7900CEA910 /* EsploraPong */ = {
+			isa = PBXGroup;
+			children = (
+				745F873B19C5EF7900CEA910 /* EsploraPong.ino */,
+			);
+			path = EsploraPong;
+			sourceTree = "<group>";
+		};
+		745F873C19C5EF7900CEA910 /* EsploraRemote */ = {
+			isa = PBXGroup;
+			children = (
+				745F873D19C5EF7900CEA910 /* EsploraRemote.ino */,
+			);
+			path = EsploraRemote;
+			sourceTree = "<group>";
+		};
+		745F873E19C5EF7900CEA910 /* EsploraTable */ = {
+			isa = PBXGroup;
+			children = (
+				745F873F19C5EF7900CEA910 /* EsploraTable.ino */,
+			);
+			path = EsploraTable;
+			sourceTree = "<group>";
+		};
+		745F874119C5EF7900CEA910 /* Ethernet */ = {
+			isa = PBXGroup;
+			children = (
+				745F874219C5EF7900CEA910 /* Dhcp.cpp */,
+				745F874319C5EF7900CEA910 /* Dhcp.h */,
+				745F874419C5EF7900CEA910 /* Dns.cpp */,
+				745F874519C5EF7900CEA910 /* Dns.h */,
+				745F874619C5EF7900CEA910 /* Ethernet.cpp */,
+				745F874719C5EF7900CEA910 /* Ethernet.h */,
+				745F874819C5EF7900CEA910 /* EthernetClient.cpp */,
+				745F874919C5EF7900CEA910 /* EthernetClient.h */,
+				745F874A19C5EF7900CEA910 /* EthernetServer.cpp */,
+				745F874B19C5EF7900CEA910 /* EthernetServer.h */,
+				745F874C19C5EF7900CEA910 /* EthernetUdp.cpp */,
+				745F874D19C5EF7900CEA910 /* EthernetUdp.h */,
+				745F874E19C5EF7900CEA910 /* examples */,
+				745F876919C5EF7900CEA910 /* keywords.txt */,
+				745F876A19C5EF7900CEA910 /* util.h */,
+				745F876B19C5EF7900CEA910 /* utility */,
+			);
+			path = Ethernet;
+			sourceTree = "<group>";
+		};
+		745F874E19C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F874F19C5EF7900CEA910 /* BarometricPressureWebServer */,
+				745F875119C5EF7900CEA910 /* ChatServer */,
+				745F875319C5EF7900CEA910 /* DhcpAddressPrinter */,
+				745F875519C5EF7900CEA910 /* DhcpChatServer */,
+				745F875719C5EF7900CEA910 /* PachubeClient */,
+				745F875919C5EF7900CEA910 /* PachubeClientString */,
+				745F875B19C5EF7900CEA910 /* TelnetClient */,
+				745F875D19C5EF7900CEA910 /* TwitterClient */,
+				745F875F19C5EF7900CEA910 /* UdpNtpClient */,
+				745F876119C5EF7900CEA910 /* UDPSendReceiveString */,
+				745F876319C5EF7900CEA910 /* WebClient */,
+				745F876519C5EF7900CEA910 /* WebClientRepeating */,
+				745F876719C5EF7900CEA910 /* WebServer */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F874F19C5EF7900CEA910 /* BarometricPressureWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F875019C5EF7900CEA910 /* BarometricPressureWebServer.ino */,
+			);
+			path = BarometricPressureWebServer;
+			sourceTree = "<group>";
+		};
+		745F875119C5EF7900CEA910 /* ChatServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F875219C5EF7900CEA910 /* ChatServer.ino */,
+			);
+			path = ChatServer;
+			sourceTree = "<group>";
+		};
+		745F875319C5EF7900CEA910 /* DhcpAddressPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				745F875419C5EF7900CEA910 /* DhcpAddressPrinter.ino */,
+			);
+			path = DhcpAddressPrinter;
+			sourceTree = "<group>";
+		};
+		745F875519C5EF7900CEA910 /* DhcpChatServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F875619C5EF7900CEA910 /* DhcpChatServer.ino */,
+			);
+			path = DhcpChatServer;
+			sourceTree = "<group>";
+		};
+		745F875719C5EF7900CEA910 /* PachubeClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F875819C5EF7900CEA910 /* PachubeClient.ino */,
+			);
+			path = PachubeClient;
+			sourceTree = "<group>";
+		};
+		745F875919C5EF7900CEA910 /* PachubeClientString */ = {
+			isa = PBXGroup;
+			children = (
+				745F875A19C5EF7900CEA910 /* PachubeClientString.ino */,
+			);
+			path = PachubeClientString;
+			sourceTree = "<group>";
+		};
+		745F875B19C5EF7900CEA910 /* TelnetClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F875C19C5EF7900CEA910 /* TelnetClient.ino */,
+			);
+			path = TelnetClient;
+			sourceTree = "<group>";
+		};
+		745F875D19C5EF7900CEA910 /* TwitterClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F875E19C5EF7900CEA910 /* TwitterClient.ino */,
+			);
+			path = TwitterClient;
+			sourceTree = "<group>";
+		};
+		745F875F19C5EF7900CEA910 /* UdpNtpClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F876019C5EF7900CEA910 /* UdpNtpClient.ino */,
+			);
+			path = UdpNtpClient;
+			sourceTree = "<group>";
+		};
+		745F876119C5EF7900CEA910 /* UDPSendReceiveString */ = {
+			isa = PBXGroup;
+			children = (
+				745F876219C5EF7900CEA910 /* UDPSendReceiveString.ino */,
+			);
+			path = UDPSendReceiveString;
+			sourceTree = "<group>";
+		};
+		745F876319C5EF7900CEA910 /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F876419C5EF7900CEA910 /* WebClient.ino */,
+			);
+			path = WebClient;
+			sourceTree = "<group>";
+		};
+		745F876519C5EF7900CEA910 /* WebClientRepeating */ = {
+			isa = PBXGroup;
+			children = (
+				745F876619C5EF7900CEA910 /* WebClientRepeating.ino */,
+			);
+			path = WebClientRepeating;
+			sourceTree = "<group>";
+		};
+		745F876719C5EF7900CEA910 /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F876819C5EF7900CEA910 /* WebServer.ino */,
+			);
+			path = WebServer;
+			sourceTree = "<group>";
+		};
+		745F876B19C5EF7900CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F876C19C5EF7900CEA910 /* socket.cpp */,
+				745F876D19C5EF7900CEA910 /* socket.h */,
+				745F876E19C5EF7900CEA910 /* w5100.cpp */,
+				745F876F19C5EF7900CEA910 /* w5100.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		745F877019C5EF7900CEA910 /* Firmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F877119C5EF7900CEA910 /* Boards.h */,
+				745F877219C5EF7900CEA910 /* examples */,
+				745F878719C5EF7900CEA910 /* Firmata.cpp */,
+				745F878819C5EF7900CEA910 /* Firmata.h */,
+				745F878919C5EF7900CEA910 /* keywords.txt */,
+				745F878A19C5EF7900CEA910 /* LICENSE.txt */,
+				745F878B19C5EF7900CEA910 /* TODO.txt */,
+			);
+			path = Firmata;
+			sourceTree = "<group>";
+		};
+		745F877219C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F877319C5EF7900CEA910 /* AllInputsFirmata */,
+				745F877519C5EF7900CEA910 /* AnalogFirmata */,
+				745F877719C5EF7900CEA910 /* EchoString */,
+				745F877919C5EF7900CEA910 /* I2CFirmata */,
+				745F877B19C5EF7900CEA910 /* OldStandardFirmata */,
+				745F877E19C5EF7900CEA910 /* ServoFirmata */,
+				745F878019C5EF7900CEA910 /* SimpleAnalogFirmata */,
+				745F878219C5EF7900CEA910 /* SimpleDigitalFirmata */,
+				745F878419C5EF7900CEA910 /* StandardFirmata */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F877319C5EF7900CEA910 /* AllInputsFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F877419C5EF7900CEA910 /* AllInputsFirmata.ino */,
+			);
+			path = AllInputsFirmata;
+			sourceTree = "<group>";
+		};
+		745F877519C5EF7900CEA910 /* AnalogFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F877619C5EF7900CEA910 /* AnalogFirmata.ino */,
+			);
+			path = AnalogFirmata;
+			sourceTree = "<group>";
+		};
+		745F877719C5EF7900CEA910 /* EchoString */ = {
+			isa = PBXGroup;
+			children = (
+				745F877819C5EF7900CEA910 /* EchoString.ino */,
+			);
+			path = EchoString;
+			sourceTree = "<group>";
+		};
+		745F877919C5EF7900CEA910 /* I2CFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F877A19C5EF7900CEA910 /* I2CFirmata.ino */,
+			);
+			path = I2CFirmata;
+			sourceTree = "<group>";
+		};
+		745F877B19C5EF7900CEA910 /* OldStandardFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F877C19C5EF7900CEA910 /* LICENSE.txt */,
+				745F877D19C5EF7900CEA910 /* OldStandardFirmata.ino */,
+			);
+			path = OldStandardFirmata;
+			sourceTree = "<group>";
+		};
+		745F877E19C5EF7900CEA910 /* ServoFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F877F19C5EF7900CEA910 /* ServoFirmata.ino */,
+			);
+			path = ServoFirmata;
+			sourceTree = "<group>";
+		};
+		745F878019C5EF7900CEA910 /* SimpleAnalogFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F878119C5EF7900CEA910 /* SimpleAnalogFirmata.ino */,
+			);
+			path = SimpleAnalogFirmata;
+			sourceTree = "<group>";
+		};
+		745F878219C5EF7900CEA910 /* SimpleDigitalFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F878319C5EF7900CEA910 /* SimpleDigitalFirmata.ino */,
+			);
+			path = SimpleDigitalFirmata;
+			sourceTree = "<group>";
+		};
+		745F878419C5EF7900CEA910 /* StandardFirmata */ = {
+			isa = PBXGroup;
+			children = (
+				745F878519C5EF7900CEA910 /* LICENSE.txt */,
+				745F878619C5EF7900CEA910 /* StandardFirmata.ino */,
+			);
+			path = StandardFirmata;
+			sourceTree = "<group>";
+		};
+		745F878C19C5EF7900CEA910 /* GSM */ = {
+			isa = PBXGroup;
+			children = (
+				745F878D19C5EF7900CEA910 /* examples */,
+				745F87AD19C5EF7900CEA910 /* GSM.h */,
+				745F87AE19C5EF7900CEA910 /* GSM3CircularBuffer.cpp */,
+				745F87AF19C5EF7900CEA910 /* GSM3CircularBuffer.h */,
+				745F87B019C5EF7900CEA910 /* GSM3MobileAccessProvider.cpp */,
+				745F87B119C5EF7900CEA910 /* GSM3MobileAccessProvider.h */,
+				745F87B219C5EF7900CEA910 /* GSM3MobileCellManagement.cpp */,
+				745F87B319C5EF7900CEA910 /* GSM3MobileCellManagement.h */,
+				745F87B419C5EF7900CEA910 /* GSM3MobileClientProvider.cpp */,
+				745F87B519C5EF7900CEA910 /* GSM3MobileClientProvider.h */,
+				745F87B619C5EF7900CEA910 /* GSM3MobileClientService.cpp */,
+				745F87B719C5EF7900CEA910 /* GSM3MobileClientService.h */,
+				745F87B819C5EF7900CEA910 /* GSM3MobileDataNetworkProvider.cpp */,
+				745F87B919C5EF7900CEA910 /* GSM3MobileDataNetworkProvider.h */,
+				745F87BA19C5EF7900CEA910 /* GSM3MobileMockupProvider.cpp */,
+				745F87BB19C5EF7900CEA910 /* GSM3MobileMockupProvider.h */,
+				745F87BC19C5EF7900CEA910 /* GSM3MobileNetworkProvider.cpp */,
+				745F87BD19C5EF7900CEA910 /* GSM3MobileNetworkProvider.h */,
+				745F87BE19C5EF7900CEA910 /* GSM3MobileNetworkRegistry.cpp */,
+				745F87BF19C5EF7900CEA910 /* GSM3MobileNetworkRegistry.h */,
+				745F87C019C5EF7900CEA910 /* GSM3MobileServerProvider.cpp */,
+				745F87C119C5EF7900CEA910 /* GSM3MobileServerProvider.h */,
+				745F87C219C5EF7900CEA910 /* GSM3MobileServerService.cpp */,
+				745F87C319C5EF7900CEA910 /* GSM3MobileServerService.h */,
+				745F87C419C5EF7900CEA910 /* GSM3MobileSMSProvider.cpp */,
+				745F87C519C5EF7900CEA910 /* GSM3MobileSMSProvider.h */,
+				745F87C619C5EF7900CEA910 /* GSM3MobileVoiceProvider.cpp */,
+				745F87C719C5EF7900CEA910 /* GSM3MobileVoiceProvider.h */,
+				745F87C819C5EF7900CEA910 /* GSM3ShieldV1.cpp */,
+				745F87C919C5EF7900CEA910 /* GSM3ShieldV1.h */,
+				745F87CA19C5EF7900CEA910 /* GSM3ShieldV1AccessProvider.cpp */,
+				745F87CB19C5EF7900CEA910 /* GSM3ShieldV1AccessProvider.h */,
+				745F87CC19C5EF7900CEA910 /* GSM3ShieldV1BandManagement.cpp */,
+				745F87CD19C5EF7900CEA910 /* GSM3ShieldV1BandManagement.h */,
+				745F87CE19C5EF7900CEA910 /* GSM3ShieldV1BaseProvider.cpp */,
+				745F87CF19C5EF7900CEA910 /* GSM3ShieldV1BaseProvider.h */,
+				745F87D019C5EF7900CEA910 /* GSM3ShieldV1CellManagement.cpp */,
+				745F87D119C5EF7900CEA910 /* GSM3ShieldV1CellManagement.h */,
+				745F87D219C5EF7900CEA910 /* GSM3ShieldV1ClientProvider.cpp */,
+				745F87D319C5EF7900CEA910 /* GSM3ShieldV1ClientProvider.h */,
+				745F87D419C5EF7900CEA910 /* GSM3ShieldV1DataNetworkProvider.cpp */,
+				745F87D519C5EF7900CEA910 /* GSM3ShieldV1DataNetworkProvider.h */,
+				745F87D619C5EF7900CEA910 /* GSM3ShieldV1DirectModemProvider.cpp */,
+				745F87D719C5EF7900CEA910 /* GSM3ShieldV1DirectModemProvider.h */,
+				745F87D819C5EF7900CEA910 /* GSM3ShieldV1ModemCore.cpp */,
+				745F87D919C5EF7900CEA910 /* GSM3ShieldV1ModemCore.h */,
+				745F87DA19C5EF7900CEA910 /* GSM3ShieldV1ModemVerification.cpp */,
+				745F87DB19C5EF7900CEA910 /* GSM3ShieldV1ModemVerification.h */,
+				745F87DC19C5EF7900CEA910 /* GSM3ShieldV1MultiClientProvider.cpp */,
+				745F87DD19C5EF7900CEA910 /* GSM3ShieldV1MultiClientProvider.h */,
+				745F87DE19C5EF7900CEA910 /* GSM3ShieldV1MultiServerProvider.cpp */,
+				745F87DF19C5EF7900CEA910 /* GSM3ShieldV1MultiServerProvider.h */,
+				745F87E019C5EF7900CEA910 /* GSM3ShieldV1PinManagement.cpp */,
+				745F87E119C5EF7900CEA910 /* GSM3ShieldV1PinManagement.h */,
+				745F87E219C5EF7900CEA910 /* GSM3ShieldV1ScanNetworks.cpp */,
+				745F87E319C5EF7900CEA910 /* GSM3ShieldV1ScanNetworks.h */,
+				745F87E419C5EF7900CEA910 /* GSM3ShieldV1ServerProvider.cpp */,
+				745F87E519C5EF7900CEA910 /* GSM3ShieldV1ServerProvider.h */,
+				745F87E619C5EF7900CEA910 /* GSM3ShieldV1SMSProvider.cpp */,
+				745F87E719C5EF7900CEA910 /* GSM3ShieldV1SMSProvider.h */,
+				745F87E819C5EF7900CEA910 /* GSM3ShieldV1VoiceProvider.cpp */,
+				745F87E919C5EF7900CEA910 /* GSM3ShieldV1VoiceProvider.h */,
+				745F87EA19C5EF7900CEA910 /* GSM3SMSService.cpp */,
+				745F87EB19C5EF7900CEA910 /* GSM3SMSService.h */,
+				745F87EC19C5EF7900CEA910 /* GSM3SoftSerial.cpp */,
+				745F87ED19C5EF7900CEA910 /* GSM3SoftSerial.h */,
+				745F87EE19C5EF7900CEA910 /* GSM3VoiceCallService.cpp */,
+				745F87EF19C5EF7900CEA910 /* GSM3VoiceCallService.h */,
+				745F87F019C5EF7900CEA910 /* keywords.txt */,
+				745F87F119C5EF7900CEA910 /* License.txt */,
+			);
+			path = GSM;
+			sourceTree = "<group>";
+		};
+		745F878D19C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F878E19C5EF7900CEA910 /* GSMPachubeClient */,
+				745F879019C5EF7900CEA910 /* GSMPachubeClientString */,
+				745F879219C5EF7900CEA910 /* GsmTwitterClient */,
+				745F879419C5EF7900CEA910 /* GsmWebClient */,
+				745F879619C5EF7900CEA910 /* GsmWebServer */,
+				745F879819C5EF7900CEA910 /* MakeVoiceCall */,
+				745F879A19C5EF7900CEA910 /* ReceiveSMS */,
+				745F879C19C5EF7900CEA910 /* ReceiveVoiceCall */,
+				745F879E19C5EF7900CEA910 /* SendSMS */,
+				745F87A019C5EF7900CEA910 /* Tools */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F878E19C5EF7900CEA910 /* GSMPachubeClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F878F19C5EF7900CEA910 /* GSMPachubeClient.ino */,
+			);
+			path = GSMPachubeClient;
+			sourceTree = "<group>";
+		};
+		745F879019C5EF7900CEA910 /* GSMPachubeClientString */ = {
+			isa = PBXGroup;
+			children = (
+				745F879119C5EF7900CEA910 /* GSMPachubeClientString.ino */,
+			);
+			path = GSMPachubeClientString;
+			sourceTree = "<group>";
+		};
+		745F879219C5EF7900CEA910 /* GsmTwitterClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F879319C5EF7900CEA910 /* GsmTwitterClient.ino */,
+			);
+			path = GsmTwitterClient;
+			sourceTree = "<group>";
+		};
+		745F879419C5EF7900CEA910 /* GsmWebClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F879519C5EF7900CEA910 /* GsmWebClient.ino */,
+			);
+			path = GsmWebClient;
+			sourceTree = "<group>";
+		};
+		745F879619C5EF7900CEA910 /* GsmWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F879719C5EF7900CEA910 /* GsmWebServer.ino */,
+			);
+			path = GsmWebServer;
+			sourceTree = "<group>";
+		};
+		745F879819C5EF7900CEA910 /* MakeVoiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				745F879919C5EF7900CEA910 /* MakeVoiceCall.ino */,
+			);
+			path = MakeVoiceCall;
+			sourceTree = "<group>";
+		};
+		745F879A19C5EF7900CEA910 /* ReceiveSMS */ = {
+			isa = PBXGroup;
+			children = (
+				745F879B19C5EF7900CEA910 /* ReceiveSMS.ino */,
+			);
+			path = ReceiveSMS;
+			sourceTree = "<group>";
+		};
+		745F879C19C5EF7900CEA910 /* ReceiveVoiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				745F879D19C5EF7900CEA910 /* ReceiveVoiceCall.ino */,
+			);
+			path = ReceiveVoiceCall;
+			sourceTree = "<group>";
+		};
+		745F879E19C5EF7900CEA910 /* SendSMS */ = {
+			isa = PBXGroup;
+			children = (
+				745F879F19C5EF7900CEA910 /* SendSMS.ino */,
+			);
+			path = SendSMS;
+			sourceTree = "<group>";
+		};
+		745F87A019C5EF7900CEA910 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				745F87A119C5EF7900CEA910 /* BandManagement */,
+				745F87A319C5EF7900CEA910 /* GsmScanNetworks */,
+				745F87A519C5EF7900CEA910 /* PinManagement */,
+				745F87A719C5EF7900CEA910 /* TestGPRS */,
+				745F87A919C5EF7900CEA910 /* TestModem */,
+				745F87AB19C5EF7900CEA910 /* TestWebServer */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		745F87A119C5EF7900CEA910 /* BandManagement */ = {
+			isa = PBXGroup;
+			children = (
+				745F87A219C5EF7900CEA910 /* BandManagement.ino */,
+			);
+			path = BandManagement;
+			sourceTree = "<group>";
+		};
+		745F87A319C5EF7900CEA910 /* GsmScanNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				745F87A419C5EF7900CEA910 /* GsmScanNetworks.ino */,
+			);
+			path = GsmScanNetworks;
+			sourceTree = "<group>";
+		};
+		745F87A519C5EF7900CEA910 /* PinManagement */ = {
+			isa = PBXGroup;
+			children = (
+				745F87A619C5EF7900CEA910 /* PinManagement.ino */,
+			);
+			path = PinManagement;
+			sourceTree = "<group>";
+		};
+		745F87A719C5EF7900CEA910 /* TestGPRS */ = {
+			isa = PBXGroup;
+			children = (
+				745F87A819C5EF7900CEA910 /* TestGPRS.ino */,
+			);
+			path = TestGPRS;
+			sourceTree = "<group>";
+		};
+		745F87A919C5EF7900CEA910 /* TestModem */ = {
+			isa = PBXGroup;
+			children = (
+				745F87AA19C5EF7900CEA910 /* TestModem.ino */,
+			);
+			path = TestModem;
+			sourceTree = "<group>";
+		};
+		745F87AB19C5EF7900CEA910 /* TestWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F87AC19C5EF7900CEA910 /* TestWebServer.ino */,
+			);
+			path = TestWebServer;
+			sourceTree = "<group>";
+		};
+		745F87F219C5EF7900CEA910 /* LiquidCrystal */ = {
+			isa = PBXGroup;
+			children = (
+				745F87F319C5EF7900CEA910 /* examples */,
+				745F880819C5EF7900CEA910 /* keywords.txt */,
+				745F880919C5EF7900CEA910 /* LiquidCrystal.cpp */,
+				745F880A19C5EF7900CEA910 /* LiquidCrystal.h */,
+			);
+			path = LiquidCrystal;
+			sourceTree = "<group>";
+		};
+		745F87F319C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F87F419C5EF7900CEA910 /* Autoscroll */,
+				745F87F619C5EF7900CEA910 /* Blink */,
+				745F87F819C5EF7900CEA910 /* Cursor */,
+				745F87FA19C5EF7900CEA910 /* CustomCharacter */,
+				745F87FC19C5EF7900CEA910 /* Display */,
+				745F87FE19C5EF7900CEA910 /* HelloWorld */,
+				745F880019C5EF7900CEA910 /* Scroll */,
+				745F880219C5EF7900CEA910 /* SerialDisplay */,
+				745F880419C5EF7900CEA910 /* setCursor */,
+				745F880619C5EF7900CEA910 /* TextDirection */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F87F419C5EF7900CEA910 /* Autoscroll */ = {
+			isa = PBXGroup;
+			children = (
+				745F87F519C5EF7900CEA910 /* Autoscroll.ino */,
+			);
+			path = Autoscroll;
+			sourceTree = "<group>";
+		};
+		745F87F619C5EF7900CEA910 /* Blink */ = {
+			isa = PBXGroup;
+			children = (
+				745F87F719C5EF7900CEA910 /* Blink.ino */,
+			);
+			path = Blink;
+			sourceTree = "<group>";
+		};
+		745F87F819C5EF7900CEA910 /* Cursor */ = {
+			isa = PBXGroup;
+			children = (
+				745F87F919C5EF7900CEA910 /* Cursor.ino */,
+			);
+			path = Cursor;
+			sourceTree = "<group>";
+		};
+		745F87FA19C5EF7900CEA910 /* CustomCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				745F87FB19C5EF7900CEA910 /* CustomCharacter.ino */,
+			);
+			path = CustomCharacter;
+			sourceTree = "<group>";
+		};
+		745F87FC19C5EF7900CEA910 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				745F87FD19C5EF7900CEA910 /* Display.ino */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		745F87FE19C5EF7900CEA910 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				745F87FF19C5EF7900CEA910 /* HelloWorld.ino */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		745F880019C5EF7900CEA910 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				745F880119C5EF7900CEA910 /* Scroll.ino */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		745F880219C5EF7900CEA910 /* SerialDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				745F880319C5EF7900CEA910 /* SerialDisplay.ino */,
+			);
+			path = SerialDisplay;
+			sourceTree = "<group>";
+		};
+		745F880419C5EF7900CEA910 /* setCursor */ = {
+			isa = PBXGroup;
+			children = (
+				745F880519C5EF7900CEA910 /* setCursor.ino */,
+			);
+			path = setCursor;
+			sourceTree = "<group>";
+		};
+		745F880619C5EF7900CEA910 /* TextDirection */ = {
+			isa = PBXGroup;
+			children = (
+				745F880719C5EF7900CEA910 /* TextDirection.ino */,
+			);
+			path = TextDirection;
+			sourceTree = "<group>";
+		};
+		745F880B19C5EF7900CEA910 /* Robot_Control */ = {
+			isa = PBXGroup;
+			children = (
+				745F880C19C5EF7900CEA910 /* Adafruit_GFX.cpp */,
+				745F880D19C5EF7900CEA910 /* Adafruit_GFX.h */,
+				745F880E19C5EF7900CEA910 /* Arduino_LCD.cpp */,
+				745F880F19C5EF7900CEA910 /* Arduino_LCD.h */,
+				745F881019C5EF7900CEA910 /* ArduinoRobot.cpp */,
+				745F881119C5EF7900CEA910 /* ArduinoRobot.h */,
+				745F881219C5EF7900CEA910 /* communication.cpp */,
+				745F881319C5EF7900CEA910 /* Compass.cpp */,
+				745F881419C5EF7900CEA910 /* Compass.h */,
+				745F881519C5EF7900CEA910 /* EasyTransfer2.cpp */,
+				745F881619C5EF7900CEA910 /* EasyTransfer2.h */,
+				745F881719C5EF7900CEA910 /* EEPROM_I2C.cpp */,
+				745F881819C5EF7900CEA910 /* EEPROM_I2C.h */,
+				745F881919C5EF7900CEA910 /* examples */,
+				745F885019C5EF7900CEA910 /* Fat16.cpp */,
+				745F885119C5EF7900CEA910 /* Fat16.h */,
+				745F885219C5EF7900CEA910 /* Fat16Config.h */,
+				745F885319C5EF7900CEA910 /* Fat16mainpage.h */,
+				745F885419C5EF7900CEA910 /* Fat16util.h */,
+				745F885519C5EF7900CEA910 /* FatStructs.h */,
+				745F885619C5EF7900CEA910 /* glcdfont.c */,
+				745F885719C5EF7900CEA910 /* helper.cpp */,
+				745F885819C5EF7900CEA910 /* information.cpp */,
+				745F885919C5EF7900CEA910 /* keyboard.cpp */,
+				745F885A19C5EF7900CEA910 /* lcd.cpp */,
+				745F885B19C5EF7900CEA910 /* Melody.cpp */,
+				745F885C19C5EF7900CEA910 /* Motors.cpp */,
+				745F885D19C5EF7900CEA910 /* Multiplexer.cpp */,
+				745F885E19C5EF7900CEA910 /* Multiplexer.h */,
+				745F885F19C5EF7900CEA910 /* RobotSdCard.cpp */,
+				745F886019C5EF7900CEA910 /* SdCard.cpp */,
+				745F886119C5EF7900CEA910 /* SdCard.h */,
+				745F886219C5EF7900CEA910 /* SdInfo.h */,
+				745F886319C5EF7900CEA910 /* Sensors.cpp */,
+				745F886419C5EF7900CEA910 /* SPI.cpp */,
+				745F886519C5EF7900CEA910 /* SPI.h */,
+				745F886619C5EF7900CEA910 /* Squawk.cpp */,
+				745F886719C5EF7900CEA910 /* Squawk.h */,
+				745F886819C5EF7900CEA910 /* SquawkSD.cpp */,
+				745F886919C5EF7900CEA910 /* SquawkSD.h */,
+				745F886A19C5EF7900CEA910 /* utility */,
+				745F887219C5EF7900CEA910 /* Wire.cpp */,
+				745F887319C5EF7900CEA910 /* Wire.h */,
+			);
+			path = Robot_Control;
+			sourceTree = "<group>";
+		};
+		745F881919C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F881A19C5EF7900CEA910 /* explore */,
+				745F883119C5EF7900CEA910 /* learn */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F881A19C5EF7900CEA910 /* explore */ = {
+			isa = PBXGroup;
+			children = (
+				745F881B19C5EF7900CEA910 /* R01_Logo */,
+				745F881D19C5EF7900CEA910 /* R02_Line_Follow */,
+				745F881F19C5EF7900CEA910 /* R03_Disco_Bot */,
+				745F882119C5EF7900CEA910 /* R04_Compass */,
+				745F882319C5EF7900CEA910 /* R05_Inputs */,
+				745F882519C5EF7900CEA910 /* R06_Wheel_Calibration */,
+				745F882719C5EF7900CEA910 /* R07_Runaway_Robot */,
+				745F882919C5EF7900CEA910 /* R08_Remote_Control */,
+				745F882B19C5EF7900CEA910 /* R09_Picture_Browser */,
+				745F882D19C5EF7900CEA910 /* R10_Rescue */,
+				745F882F19C5EF7900CEA910 /* R11_Hello_User */,
+			);
+			path = explore;
+			sourceTree = "<group>";
+		};
+		745F881B19C5EF7900CEA910 /* R01_Logo */ = {
+			isa = PBXGroup;
+			children = (
+				745F881C19C5EF7900CEA910 /* R01_Logo.ino */,
+			);
+			path = R01_Logo;
+			sourceTree = "<group>";
+		};
+		745F881D19C5EF7900CEA910 /* R02_Line_Follow */ = {
+			isa = PBXGroup;
+			children = (
+				745F881E19C5EF7900CEA910 /* R02_Line_Follow.ino */,
+			);
+			path = R02_Line_Follow;
+			sourceTree = "<group>";
+		};
+		745F881F19C5EF7900CEA910 /* R03_Disco_Bot */ = {
+			isa = PBXGroup;
+			children = (
+				745F882019C5EF7900CEA910 /* R03_Disco_Bot.ino */,
+			);
+			path = R03_Disco_Bot;
+			sourceTree = "<group>";
+		};
+		745F882119C5EF7900CEA910 /* R04_Compass */ = {
+			isa = PBXGroup;
+			children = (
+				745F882219C5EF7900CEA910 /* R04_Compass.ino */,
+			);
+			path = R04_Compass;
+			sourceTree = "<group>";
+		};
+		745F882319C5EF7900CEA910 /* R05_Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				745F882419C5EF7900CEA910 /* R05_Inputs.ino */,
+			);
+			path = R05_Inputs;
+			sourceTree = "<group>";
+		};
+		745F882519C5EF7900CEA910 /* R06_Wheel_Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				745F882619C5EF7900CEA910 /* R06_Wheel_Calibration.ino */,
+			);
+			path = R06_Wheel_Calibration;
+			sourceTree = "<group>";
+		};
+		745F882719C5EF7900CEA910 /* R07_Runaway_Robot */ = {
+			isa = PBXGroup;
+			children = (
+				745F882819C5EF7900CEA910 /* R07_Runaway_Robot.ino */,
+			);
+			path = R07_Runaway_Robot;
+			sourceTree = "<group>";
+		};
+		745F882919C5EF7900CEA910 /* R08_Remote_Control */ = {
+			isa = PBXGroup;
+			children = (
+				745F882A19C5EF7900CEA910 /* R08_Remote_Control.ino */,
+			);
+			path = R08_Remote_Control;
+			sourceTree = "<group>";
+		};
+		745F882B19C5EF7900CEA910 /* R09_Picture_Browser */ = {
+			isa = PBXGroup;
+			children = (
+				745F882C19C5EF7900CEA910 /* R09_Picture_Browser.ino */,
+			);
+			path = R09_Picture_Browser;
+			sourceTree = "<group>";
+		};
+		745F882D19C5EF7900CEA910 /* R10_Rescue */ = {
+			isa = PBXGroup;
+			children = (
+				745F882E19C5EF7900CEA910 /* R10_Rescue.ino */,
+			);
+			path = R10_Rescue;
+			sourceTree = "<group>";
+		};
+		745F882F19C5EF7900CEA910 /* R11_Hello_User */ = {
+			isa = PBXGroup;
+			children = (
+				745F883019C5EF7900CEA910 /* R11_Hello_User.ino */,
+			);
+			path = R11_Hello_User;
+			sourceTree = "<group>";
+		};
+		745F883119C5EF7900CEA910 /* learn */ = {
+			isa = PBXGroup;
+			children = (
+				745F883219C5EF7900CEA910 /* AllIOPorts */,
+				745F883419C5EF7900CEA910 /* Beep */,
+				745F883619C5EF7900CEA910 /* CleanEEPROM */,
+				745F883819C5EF7900CEA910 /* Compass */,
+				745F883A19C5EF7900CEA910 /* IRArray */,
+				745F883C19C5EF7900CEA910 /* keyboardTest */,
+				745F883F19C5EF7900CEA910 /* LCDDebugPrint */,
+				745F884119C5EF7900CEA910 /* LCDPrint */,
+				745F884319C5EF7900CEA910 /* LCDWriteText */,
+				745F884519C5EF7900CEA910 /* LineFollowWithPause */,
+				745F884719C5EF7900CEA910 /* Melody */,
+				745F884919C5EF7900CEA910 /* MotorTest */,
+				745F884B19C5EF7900CEA910 /* SpeedByPotentiometer */,
+				745F884D19C5EF7900CEA910 /* TurnTest */,
+			);
+			path = learn;
+			sourceTree = "<group>";
+		};
+		745F883219C5EF7900CEA910 /* AllIOPorts */ = {
+			isa = PBXGroup;
+			children = (
+				745F883319C5EF7900CEA910 /* AllIOPorts.ino */,
+			);
+			path = AllIOPorts;
+			sourceTree = "<group>";
+		};
+		745F883419C5EF7900CEA910 /* Beep */ = {
+			isa = PBXGroup;
+			children = (
+				745F883519C5EF7900CEA910 /* Beep.ino */,
+			);
+			path = Beep;
+			sourceTree = "<group>";
+		};
+		745F883619C5EF7900CEA910 /* CleanEEPROM */ = {
+			isa = PBXGroup;
+			children = (
+				745F883719C5EF7900CEA910 /* CleanEEPROM.ino */,
+			);
+			path = CleanEEPROM;
+			sourceTree = "<group>";
+		};
+		745F883819C5EF7900CEA910 /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				745F883919C5EF7900CEA910 /* Compass.ino */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		745F883A19C5EF7900CEA910 /* IRArray */ = {
+			isa = PBXGroup;
+			children = (
+				745F883B19C5EF7900CEA910 /* IRArray.ino */,
+			);
+			path = IRArray;
+			sourceTree = "<group>";
+		};
+		745F883C19C5EF7900CEA910 /* keyboardTest */ = {
+			isa = PBXGroup;
+			children = (
+				745F883D19C5EF7900CEA910 /* keyboardTest.ino */,
+				745F883E19C5EF7900CEA910 /* keyboardTest.ino.orig */,
+			);
+			path = keyboardTest;
+			sourceTree = "<group>";
+		};
+		745F883F19C5EF7900CEA910 /* LCDDebugPrint */ = {
+			isa = PBXGroup;
+			children = (
+				745F884019C5EF7900CEA910 /* LCDDebugPrint.ino */,
+			);
+			path = LCDDebugPrint;
+			sourceTree = "<group>";
+		};
+		745F884119C5EF7900CEA910 /* LCDPrint */ = {
+			isa = PBXGroup;
+			children = (
+				745F884219C5EF7900CEA910 /* LCDPrint.ino */,
+			);
+			path = LCDPrint;
+			sourceTree = "<group>";
+		};
+		745F884319C5EF7900CEA910 /* LCDWriteText */ = {
+			isa = PBXGroup;
+			children = (
+				745F884419C5EF7900CEA910 /* LCDWriteText.ino */,
+			);
+			path = LCDWriteText;
+			sourceTree = "<group>";
+		};
+		745F884519C5EF7900CEA910 /* LineFollowWithPause */ = {
+			isa = PBXGroup;
+			children = (
+				745F884619C5EF7900CEA910 /* LineFollowWithPause.ino */,
+			);
+			path = LineFollowWithPause;
+			sourceTree = "<group>";
+		};
+		745F884719C5EF7900CEA910 /* Melody */ = {
+			isa = PBXGroup;
+			children = (
+				745F884819C5EF7900CEA910 /* Melody.ino */,
+			);
+			path = Melody;
+			sourceTree = "<group>";
+		};
+		745F884919C5EF7900CEA910 /* MotorTest */ = {
+			isa = PBXGroup;
+			children = (
+				745F884A19C5EF7900CEA910 /* MotorTest.ino */,
+			);
+			path = MotorTest;
+			sourceTree = "<group>";
+		};
+		745F884B19C5EF7900CEA910 /* SpeedByPotentiometer */ = {
+			isa = PBXGroup;
+			children = (
+				745F884C19C5EF7900CEA910 /* SpeedByPotentiometer.ino */,
+			);
+			path = SpeedByPotentiometer;
+			sourceTree = "<group>";
+		};
+		745F884D19C5EF7900CEA910 /* TurnTest */ = {
+			isa = PBXGroup;
+			children = (
+				745F884E19C5EF7900CEA910 /* TurnTest.ino */,
+				745F884F19C5EF7900CEA910 /* TurnTest.ino.orig */,
+			);
+			path = TurnTest;
+			sourceTree = "<group>";
+		};
+		745F886A19C5EF7900CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F886B19C5EF7900CEA910 /* RobotTextManager.cpp */,
+				745F886C19C5EF7900CEA910 /* RobotTextManager.h */,
+				745F886D19C5EF7900CEA910 /* scripts_Hello_User.h */,
+				745F886E19C5EF7900CEA910 /* twi.c */,
+				745F886F19C5EF7900CEA910 /* twi.h */,
+				745F887019C5EF7900CEA910 /* VirtualKeyboard.cpp */,
+				745F887119C5EF7900CEA910 /* VirtualKeyboard.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		745F887419C5EF7900CEA910 /* Robot_Motor */ = {
+			isa = PBXGroup;
+			children = (
+				745F887519C5EF7900CEA910 /* ArduinoRobotMotorBoard.cpp */,
+				745F887619C5EF7900CEA910 /* ArduinoRobotMotorBoard.h */,
+				745F887719C5EF7900CEA910 /* EasyTransfer2.cpp */,
+				745F887819C5EF7900CEA910 /* EasyTransfer2.h */,
+				745F887919C5EF7900CEA910 /* examples */,
+				745F887E19C5EF7900CEA910 /* lineFollow.cpp */,
+				745F887F19C5EF7900CEA910 /* LineFollow.h */,
+				745F888019C5EF7900CEA910 /* Multiplexer.cpp */,
+				745F888119C5EF7900CEA910 /* Multiplexer.h */,
+			);
+			path = Robot_Motor;
+			sourceTree = "<group>";
+		};
+		745F887919C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F887A19C5EF7900CEA910 /* Robot_IR_Array_Test */,
+				745F887C19C5EF7900CEA910 /* Robot_Motor_Core */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F887A19C5EF7900CEA910 /* Robot_IR_Array_Test */ = {
+			isa = PBXGroup;
+			children = (
+				745F887B19C5EF7900CEA910 /* Robot_IR_Array_Test.ino */,
+			);
+			path = Robot_IR_Array_Test;
+			sourceTree = "<group>";
+		};
+		745F887C19C5EF7900CEA910 /* Robot_Motor_Core */ = {
+			isa = PBXGroup;
+			children = (
+				745F887D19C5EF7900CEA910 /* Robot_Motor_Core.ino */,
+			);
+			path = Robot_Motor_Core;
+			sourceTree = "<group>";
+		};
+		745F888219C5EF7900CEA910 /* SD */ = {
+			isa = PBXGroup;
+			children = (
+				745F888319C5EF7900CEA910 /* examples */,
+				745F889019C5EF7900CEA910 /* File.cpp */,
+				745F889119C5EF7900CEA910 /* keywords.txt */,
+				745F889219C5EF7900CEA910 /* README.txt */,
+				745F889319C5EF7900CEA910 /* SD.cpp */,
+				745F889419C5EF7900CEA910 /* SD.h */,
+				745F889519C5EF7900CEA910 /* utility */,
+			);
+			path = SD;
+			sourceTree = "<group>";
+		};
+		745F888319C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F888419C5EF7900CEA910 /* CardInfo */,
+				745F888619C5EF7900CEA910 /* Datalogger */,
+				745F888819C5EF7900CEA910 /* DumpFile */,
+				745F888A19C5EF7900CEA910 /* Files */,
+				745F888C19C5EF7900CEA910 /* listfiles */,
+				745F888E19C5EF7900CEA910 /* ReadWrite */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F888419C5EF7900CEA910 /* CardInfo */ = {
+			isa = PBXGroup;
+			children = (
+				745F888519C5EF7900CEA910 /* CardInfo.ino */,
+			);
+			path = CardInfo;
+			sourceTree = "<group>";
+		};
+		745F888619C5EF7900CEA910 /* Datalogger */ = {
+			isa = PBXGroup;
+			children = (
+				745F888719C5EF7900CEA910 /* Datalogger.ino */,
+			);
+			path = Datalogger;
+			sourceTree = "<group>";
+		};
+		745F888819C5EF7900CEA910 /* DumpFile */ = {
+			isa = PBXGroup;
+			children = (
+				745F888919C5EF7900CEA910 /* DumpFile.ino */,
+			);
+			path = DumpFile;
+			sourceTree = "<group>";
+		};
+		745F888A19C5EF7900CEA910 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				745F888B19C5EF7900CEA910 /* Files.ino */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		745F888C19C5EF7900CEA910 /* listfiles */ = {
+			isa = PBXGroup;
+			children = (
+				745F888D19C5EF7900CEA910 /* listfiles.ino */,
+			);
+			path = listfiles;
+			sourceTree = "<group>";
+		};
+		745F888E19C5EF7900CEA910 /* ReadWrite */ = {
+			isa = PBXGroup;
+			children = (
+				745F888F19C5EF7900CEA910 /* ReadWrite.ino */,
+			);
+			path = ReadWrite;
+			sourceTree = "<group>";
+		};
+		745F889519C5EF7900CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F889619C5EF7900CEA910 /* FatStructs.h */,
+				745F889719C5EF7900CEA910 /* Sd2Card.cpp */,
+				745F889819C5EF7900CEA910 /* Sd2Card.h */,
+				745F889919C5EF7900CEA910 /* Sd2PinMap.h */,
+				745F889A19C5EF7900CEA910 /* SdFat.h */,
+				745F889B19C5EF7900CEA910 /* SdFatmainpage.h */,
+				745F889C19C5EF7900CEA910 /* SdFatUtil.h */,
+				745F889D19C5EF7900CEA910 /* SdFile.cpp */,
+				745F889E19C5EF7900CEA910 /* SdInfo.h */,
+				745F889F19C5EF7900CEA910 /* SdVolume.cpp */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		745F88A019C5EF7900CEA910 /* Servo */ = {
+			isa = PBXGroup;
+			children = (
+				745F88A119C5EF7900CEA910 /* examples */,
+				745F88A619C5EF7900CEA910 /* keywords.txt */,
+				745F88A719C5EF7900CEA910 /* Servo.cpp */,
+				745F88A819C5EF7900CEA910 /* Servo.h */,
+			);
+			path = Servo;
+			sourceTree = "<group>";
+		};
+		745F88A119C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F88A219C5EF7900CEA910 /* Knob */,
+				745F88A419C5EF7900CEA910 /* Sweep */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F88A219C5EF7900CEA910 /* Knob */ = {
+			isa = PBXGroup;
+			children = (
+				745F88A319C5EF7900CEA910 /* Knob.ino */,
+			);
+			path = Knob;
+			sourceTree = "<group>";
+		};
+		745F88A419C5EF7900CEA910 /* Sweep */ = {
+			isa = PBXGroup;
+			children = (
+				745F88A519C5EF7900CEA910 /* Sweep.ino */,
+			);
+			path = Sweep;
+			sourceTree = "<group>";
+		};
+		745F88A919C5EF7900CEA910 /* SoftwareSerial */ = {
+			isa = PBXGroup;
+			children = (
+				745F88AA19C5EF7900CEA910 /* examples */,
+				745F88AF19C5EF7900CEA910 /* keywords.txt */,
+				745F88B019C5EF7900CEA910 /* SoftwareSerial.cpp */,
+				745F88B119C5EF7900CEA910 /* SoftwareSerial.h */,
+			);
+			path = SoftwareSerial;
+			sourceTree = "<group>";
+		};
+		745F88AA19C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F88AB19C5EF7900CEA910 /* SoftwareSerialExample */,
+				745F88AD19C5EF7900CEA910 /* TwoPortReceive */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F88AB19C5EF7900CEA910 /* SoftwareSerialExample */ = {
+			isa = PBXGroup;
+			children = (
+				745F88AC19C5EF7900CEA910 /* SoftwareSerialExample.ino */,
+			);
+			path = SoftwareSerialExample;
+			sourceTree = "<group>";
+		};
+		745F88AD19C5EF7900CEA910 /* TwoPortReceive */ = {
+			isa = PBXGroup;
+			children = (
+				745F88AE19C5EF7900CEA910 /* TwoPortReceive.ino */,
+			);
+			path = TwoPortReceive;
+			sourceTree = "<group>";
+		};
+		745F88B219C5EF7900CEA910 /* SPI */ = {
+			isa = PBXGroup;
+			children = (
+				745F88B319C5EF7900CEA910 /* examples */,
+				745F88BA19C5EF7900CEA910 /* keywords.txt */,
+				745F88BB19C5EF7900CEA910 /* SPI.cpp */,
+				745F88BC19C5EF7900CEA910 /* SPI.h */,
+			);
+			path = SPI;
+			sourceTree = "<group>";
+		};
+		745F88B319C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F88B419C5EF7900CEA910 /* BarometricPressureSensor */,
+				745F88B819C5EF7900CEA910 /* DigitalPotControl */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F88B419C5EF7900CEA910 /* BarometricPressureSensor */ = {
+			isa = PBXGroup;
+			children = (
+				745F88B519C5EF7900CEA910 /* BarometricPressureSensor */,
+				745F88B719C5EF7900CEA910 /* BarometricPressureSensor.ino */,
+			);
+			path = BarometricPressureSensor;
+			sourceTree = "<group>";
+		};
+		745F88B519C5EF7900CEA910 /* BarometricPressureSensor */ = {
+			isa = PBXGroup;
+			children = (
+				745F88B619C5EF7900CEA910 /* BarometricPressureSensor.ino */,
+			);
+			path = BarometricPressureSensor;
+			sourceTree = "<group>";
+		};
+		745F88B819C5EF7900CEA910 /* DigitalPotControl */ = {
+			isa = PBXGroup;
+			children = (
+				745F88B919C5EF7900CEA910 /* DigitalPotControl.ino */,
+			);
+			path = DigitalPotControl;
+			sourceTree = "<group>";
+		};
+		745F88BD19C5EF7900CEA910 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				745F88BE19C5EF7900CEA910 /* examples */,
+				745F88C719C5EF7900CEA910 /* keywords.txt */,
+				745F88C819C5EF7900CEA910 /* Stepper.cpp */,
+				745F88C919C5EF7900CEA910 /* Stepper.h */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		745F88BE19C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F88BF19C5EF7900CEA910 /* MotorKnob */,
+				745F88C119C5EF7900CEA910 /* stepper_oneRevolution */,
+				745F88C319C5EF7900CEA910 /* stepper_oneStepAtATime */,
+				745F88C519C5EF7900CEA910 /* stepper_speedControl */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F88BF19C5EF7900CEA910 /* MotorKnob */ = {
+			isa = PBXGroup;
+			children = (
+				745F88C019C5EF7900CEA910 /* MotorKnob.ino */,
+			);
+			path = MotorKnob;
+			sourceTree = "<group>";
+		};
+		745F88C119C5EF7900CEA910 /* stepper_oneRevolution */ = {
+			isa = PBXGroup;
+			children = (
+				745F88C219C5EF7900CEA910 /* stepper_oneRevolution.ino */,
+			);
+			path = stepper_oneRevolution;
+			sourceTree = "<group>";
+		};
+		745F88C319C5EF7900CEA910 /* stepper_oneStepAtATime */ = {
+			isa = PBXGroup;
+			children = (
+				745F88C419C5EF7900CEA910 /* stepper_oneStepAtATime.ino */,
+			);
+			path = stepper_oneStepAtATime;
+			sourceTree = "<group>";
+		};
+		745F88C519C5EF7900CEA910 /* stepper_speedControl */ = {
+			isa = PBXGroup;
+			children = (
+				745F88C619C5EF7900CEA910 /* stepper_speedControl.ino */,
+			);
+			path = stepper_speedControl;
+			sourceTree = "<group>";
+		};
+		745F88CA19C5EF7900CEA910 /* TFT */ = {
+			isa = PBXGroup;
+			children = (
+				745F88CB19C5EF7900CEA910 /* examples */,
+				745F88EA19C5EF7900CEA910 /* keywords.txt */,
+				745F88EB19C5EF7900CEA910 /* README.md */,
+				745F88EC19C5EF7900CEA910 /* TFT.cpp */,
+				745F88ED19C5EF7900CEA910 /* TFT.h */,
+				745F88EE19C5EF7900CEA910 /* utility */,
+			);
+			path = TFT;
+			sourceTree = "<group>";
+		};
+		745F88CB19C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F88CC19C5EF7900CEA910 /* Arduino */,
+				745F88DA19C5EF7900CEA910 /* Esplora */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F88CC19C5EF7900CEA910 /* Arduino */ = {
+			isa = PBXGroup;
+			children = (
+				745F88CD19C5EF7900CEA910 /* TFTBitmapLogo */,
+				745F88D019C5EF7900CEA910 /* TFTColorPicker */,
+				745F88D219C5EF7900CEA910 /* TFTDisplayText */,
+				745F88D419C5EF7900CEA910 /* TFTEtchASketch */,
+				745F88D619C5EF7900CEA910 /* TFTGraph */,
+				745F88D819C5EF7900CEA910 /* TFTPong */,
+			);
+			path = Arduino;
+			sourceTree = "<group>";
+		};
+		745F88CD19C5EF7900CEA910 /* TFTBitmapLogo */ = {
+			isa = PBXGroup;
+			children = (
+				745F88CE19C5EF7900CEA910 /* arduino.bmp */,
+				745F88CF19C5EF7900CEA910 /* TFTBitmapLogo.ino */,
+			);
+			path = TFTBitmapLogo;
+			sourceTree = "<group>";
+		};
+		745F88D019C5EF7900CEA910 /* TFTColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				745F88D119C5EF7900CEA910 /* TFTColorPicker.ino */,
+			);
+			path = TFTColorPicker;
+			sourceTree = "<group>";
+		};
+		745F88D219C5EF7900CEA910 /* TFTDisplayText */ = {
+			isa = PBXGroup;
+			children = (
+				745F88D319C5EF7900CEA910 /* TFTDisplayText.ino */,
+			);
+			path = TFTDisplayText;
+			sourceTree = "<group>";
+		};
+		745F88D419C5EF7900CEA910 /* TFTEtchASketch */ = {
+			isa = PBXGroup;
+			children = (
+				745F88D519C5EF7900CEA910 /* TFTEtchASketch.ino */,
+			);
+			path = TFTEtchASketch;
+			sourceTree = "<group>";
+		};
+		745F88D619C5EF7900CEA910 /* TFTGraph */ = {
+			isa = PBXGroup;
+			children = (
+				745F88D719C5EF7900CEA910 /* TFTGraph.ino */,
+			);
+			path = TFTGraph;
+			sourceTree = "<group>";
+		};
+		745F88D819C5EF7900CEA910 /* TFTPong */ = {
+			isa = PBXGroup;
+			children = (
+				745F88D919C5EF7900CEA910 /* TFTPong.ino */,
+			);
+			path = TFTPong;
+			sourceTree = "<group>";
+		};
+		745F88DA19C5EF7900CEA910 /* Esplora */ = {
+			isa = PBXGroup;
+			children = (
+				745F88DB19C5EF7900CEA910 /* EsploraTFTBitmapLogo */,
+				745F88DE19C5EF7900CEA910 /* EsploraTFTColorPicker */,
+				745F88E019C5EF7900CEA910 /* EsploraTFTEtchASketch */,
+				745F88E219C5EF7900CEA910 /* EsploraTFTGraph */,
+				745F88E419C5EF7900CEA910 /* EsploraTFTHorizion */,
+				745F88E619C5EF7900CEA910 /* EsploraTFTPong */,
+				745F88E819C5EF7900CEA910 /* EsploraTFTTemp */,
+			);
+			path = Esplora;
+			sourceTree = "<group>";
+		};
+		745F88DB19C5EF7900CEA910 /* EsploraTFTBitmapLogo */ = {
+			isa = PBXGroup;
+			children = (
+				745F88DC19C5EF7900CEA910 /* arduino.bmp */,
+				745F88DD19C5EF7900CEA910 /* EsploraTFTBitmapLogo.ino */,
+			);
+			path = EsploraTFTBitmapLogo;
+			sourceTree = "<group>";
+		};
+		745F88DE19C5EF7900CEA910 /* EsploraTFTColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				745F88DF19C5EF7900CEA910 /* EsploraTFTColorPicker.ino */,
+			);
+			path = EsploraTFTColorPicker;
+			sourceTree = "<group>";
+		};
+		745F88E019C5EF7900CEA910 /* EsploraTFTEtchASketch */ = {
+			isa = PBXGroup;
+			children = (
+				745F88E119C5EF7900CEA910 /* EsploraTFTEtchASketch.ino */,
+			);
+			path = EsploraTFTEtchASketch;
+			sourceTree = "<group>";
+		};
+		745F88E219C5EF7900CEA910 /* EsploraTFTGraph */ = {
+			isa = PBXGroup;
+			children = (
+				745F88E319C5EF7900CEA910 /* EsploraTFTGraph.ino */,
+			);
+			path = EsploraTFTGraph;
+			sourceTree = "<group>";
+		};
+		745F88E419C5EF7900CEA910 /* EsploraTFTHorizion */ = {
+			isa = PBXGroup;
+			children = (
+				745F88E519C5EF7900CEA910 /* EsploraTFTHorizion.ino */,
+			);
+			path = EsploraTFTHorizion;
+			sourceTree = "<group>";
+		};
+		745F88E619C5EF7900CEA910 /* EsploraTFTPong */ = {
+			isa = PBXGroup;
+			children = (
+				745F88E719C5EF7900CEA910 /* EsploraTFTPong.ino */,
+			);
+			path = EsploraTFTPong;
+			sourceTree = "<group>";
+		};
+		745F88E819C5EF7900CEA910 /* EsploraTFTTemp */ = {
+			isa = PBXGroup;
+			children = (
+				745F88E919C5EF7900CEA910 /* EsploraTFTTemp.ino */,
+			);
+			path = EsploraTFTTemp;
+			sourceTree = "<group>";
+		};
+		745F88EE19C5EF7900CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F88EF19C5EF7900CEA910 /* Adafruit-license.txt */,
+				745F88F019C5EF7900CEA910 /* Adafruit-README.txt */,
+				745F88F119C5EF7900CEA910 /* Adafruit_GFX.cpp */,
+				745F88F219C5EF7900CEA910 /* Adafruit_GFX.h */,
+				745F88F319C5EF7900CEA910 /* Adafruit_ST7735.cpp */,
+				745F88F419C5EF7900CEA910 /* Adafruit_ST7735.h */,
+				745F88F519C5EF7900CEA910 /* glcdfont.c */,
+				745F88F619C5EF7900CEA910 /* keywords.txt */,
+				745F88F719C5EF7900CEA910 /* PImage.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		745F88F819C5EF7900CEA910 /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				745F88F919C5EF7900CEA910 /* examples */,
+				745F891619C5EF7900CEA910 /* keywords.txt */,
+				745F891719C5EF7900CEA910 /* utility */,
+				745F892419C5EF7900CEA910 /* WiFi.cpp */,
+				745F892519C5EF7900CEA910 /* WiFi.h */,
+				745F892619C5EF7900CEA910 /* WiFiClient.cpp */,
+				745F892719C5EF7900CEA910 /* WiFiClient.h */,
+				745F892819C5EF7900CEA910 /* WiFiServer.cpp */,
+				745F892919C5EF7900CEA910 /* WiFiServer.h */,
+				745F892A19C5EF7900CEA910 /* WiFiUdp.cpp */,
+				745F892B19C5EF7900CEA910 /* WiFiUdp.h */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		745F88F919C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F88FA19C5EF7900CEA910 /* ConnectNoEncryption */,
+				745F88FC19C5EF7900CEA910 /* ConnectWithWEP */,
+				745F88FE19C5EF7900CEA910 /* ConnectWithWPA */,
+				745F890019C5EF7900CEA910 /* ScanNetworks */,
+				745F890219C5EF7900CEA910 /* SimpleWebServerWiFi */,
+				745F890419C5EF7900CEA910 /* WiFiChatServer */,
+				745F890619C5EF7900CEA910 /* WiFiPachubeClient */,
+				745F890819C5EF7900CEA910 /* WiFiPachubeClientString */,
+				745F890A19C5EF7900CEA910 /* WiFiTwitterClient */,
+				745F890C19C5EF7900CEA910 /* WiFiUdpNtpClient */,
+				745F890E19C5EF7900CEA910 /* WiFiUdpSendReceiveString */,
+				745F891019C5EF7900CEA910 /* WiFiWebClient */,
+				745F891219C5EF7900CEA910 /* WiFiWebClientRepeating */,
+				745F891419C5EF7900CEA910 /* WiFiWebServer */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F88FA19C5EF7900CEA910 /* ConnectNoEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				745F88FB19C5EF7900CEA910 /* ConnectNoEncryption.ino */,
+			);
+			path = ConnectNoEncryption;
+			sourceTree = "<group>";
+		};
+		745F88FC19C5EF7900CEA910 /* ConnectWithWEP */ = {
+			isa = PBXGroup;
+			children = (
+				745F88FD19C5EF7900CEA910 /* ConnectWithWEP.ino */,
+			);
+			path = ConnectWithWEP;
+			sourceTree = "<group>";
+		};
+		745F88FE19C5EF7900CEA910 /* ConnectWithWPA */ = {
+			isa = PBXGroup;
+			children = (
+				745F88FF19C5EF7900CEA910 /* ConnectWithWPA.ino */,
+			);
+			path = ConnectWithWPA;
+			sourceTree = "<group>";
+		};
+		745F890019C5EF7900CEA910 /* ScanNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				745F890119C5EF7900CEA910 /* ScanNetworks.ino */,
+			);
+			path = ScanNetworks;
+			sourceTree = "<group>";
+		};
+		745F890219C5EF7900CEA910 /* SimpleWebServerWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				745F890319C5EF7900CEA910 /* SimpleWebServerWiFi.ino */,
+			);
+			path = SimpleWebServerWiFi;
+			sourceTree = "<group>";
+		};
+		745F890419C5EF7900CEA910 /* WiFiChatServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F890519C5EF7900CEA910 /* WiFiChatServer.ino */,
+			);
+			path = WiFiChatServer;
+			sourceTree = "<group>";
+		};
+		745F890619C5EF7900CEA910 /* WiFiPachubeClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F890719C5EF7900CEA910 /* WiFiPachubeClient.ino */,
+			);
+			path = WiFiPachubeClient;
+			sourceTree = "<group>";
+		};
+		745F890819C5EF7900CEA910 /* WiFiPachubeClientString */ = {
+			isa = PBXGroup;
+			children = (
+				745F890919C5EF7900CEA910 /* WiFiPachubeClientString.ino */,
+			);
+			path = WiFiPachubeClientString;
+			sourceTree = "<group>";
+		};
+		745F890A19C5EF7900CEA910 /* WiFiTwitterClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F890B19C5EF7900CEA910 /* WiFiTwitterClient.ino */,
+			);
+			path = WiFiTwitterClient;
+			sourceTree = "<group>";
+		};
+		745F890C19C5EF7900CEA910 /* WiFiUdpNtpClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F890D19C5EF7900CEA910 /* WiFiUdpNtpClient.ino */,
+			);
+			path = WiFiUdpNtpClient;
+			sourceTree = "<group>";
+		};
+		745F890E19C5EF7900CEA910 /* WiFiUdpSendReceiveString */ = {
+			isa = PBXGroup;
+			children = (
+				745F890F19C5EF7900CEA910 /* WiFiUdpSendReceiveString.ino */,
+			);
+			path = WiFiUdpSendReceiveString;
+			sourceTree = "<group>";
+		};
+		745F891019C5EF7900CEA910 /* WiFiWebClient */ = {
+			isa = PBXGroup;
+			children = (
+				745F891119C5EF7900CEA910 /* WiFiWebClient.ino */,
+			);
+			path = WiFiWebClient;
+			sourceTree = "<group>";
+		};
+		745F891219C5EF7900CEA910 /* WiFiWebClientRepeating */ = {
+			isa = PBXGroup;
+			children = (
+				745F891319C5EF7900CEA910 /* WiFiWebClientRepeating.ino */,
+			);
+			path = WiFiWebClientRepeating;
+			sourceTree = "<group>";
+		};
+		745F891419C5EF7900CEA910 /* WiFiWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				745F891519C5EF7900CEA910 /* WiFiWebServer.ino */,
+			);
+			path = WiFiWebServer;
+			sourceTree = "<group>";
+		};
+		745F891719C5EF7900CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F891819C5EF7900CEA910 /* debug.h */,
+				745F891919C5EF7900CEA910 /* server_drv.cpp */,
+				745F891A19C5EF7900CEA910 /* server_drv.h */,
+				745F891B19C5EF7900CEA910 /* socket.c */,
+				745F891C19C5EF7900CEA910 /* socket.h */,
+				745F891D19C5EF7900CEA910 /* spi_drv.cpp */,
+				745F891E19C5EF7900CEA910 /* spi_drv.h */,
+				745F891F19C5EF7900CEA910 /* wifi_drv.cpp */,
+				745F892019C5EF7900CEA910 /* wifi_drv.h */,
+				745F892119C5EF7900CEA910 /* wifi_spi.h */,
+				745F892219C5EF7900CEA910 /* wl_definitions.h */,
+				745F892319C5EF7900CEA910 /* wl_types.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		745F892C19C5EF7900CEA910 /* Wire */ = {
+			isa = PBXGroup;
+			children = (
+				745F892D19C5EF7900CEA910 /* examples */,
+				745F893A19C5EF7900CEA910 /* keywords.txt */,
+				745F893B19C5EF7900CEA910 /* utility */,
+				745F893E19C5EF7900CEA910 /* Wire.cpp */,
+				745F893F19C5EF7900CEA910 /* Wire.h */,
+			);
+			path = Wire;
+			sourceTree = "<group>";
+		};
+		745F892D19C5EF7900CEA910 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				745F892E19C5EF7900CEA910 /* digital_potentiometer */,
+				745F893019C5EF7900CEA910 /* master_reader */,
+				745F893219C5EF7900CEA910 /* master_writer */,
+				745F893419C5EF7900CEA910 /* SFRRanger_reader */,
+				745F893619C5EF7900CEA910 /* slave_receiver */,
+				745F893819C5EF7900CEA910 /* slave_sender */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		745F892E19C5EF7900CEA910 /* digital_potentiometer */ = {
+			isa = PBXGroup;
+			children = (
+				745F892F19C5EF7900CEA910 /* digital_potentiometer.ino */,
+			);
+			path = digital_potentiometer;
+			sourceTree = "<group>";
+		};
+		745F893019C5EF7900CEA910 /* master_reader */ = {
+			isa = PBXGroup;
+			children = (
+				745F893119C5EF7900CEA910 /* master_reader.ino */,
+			);
+			path = master_reader;
+			sourceTree = "<group>";
+		};
+		745F893219C5EF7900CEA910 /* master_writer */ = {
+			isa = PBXGroup;
+			children = (
+				745F893319C5EF7900CEA910 /* master_writer.ino */,
+			);
+			path = master_writer;
+			sourceTree = "<group>";
+		};
+		745F893419C5EF7900CEA910 /* SFRRanger_reader */ = {
+			isa = PBXGroup;
+			children = (
+				745F893519C5EF7900CEA910 /* SFRRanger_reader.ino */,
+			);
+			path = SFRRanger_reader;
+			sourceTree = "<group>";
+		};
+		745F893619C5EF7900CEA910 /* slave_receiver */ = {
+			isa = PBXGroup;
+			children = (
+				745F893719C5EF7900CEA910 /* slave_receiver.ino */,
+			);
+			path = slave_receiver;
+			sourceTree = "<group>";
+		};
+		745F893819C5EF7900CEA910 /* slave_sender */ = {
+			isa = PBXGroup;
+			children = (
+				745F893919C5EF7900CEA910 /* slave_sender.ino */,
+			);
+			path = slave_sender;
+			sourceTree = "<group>";
+		};
+		745F893B19C5EF7900CEA910 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				745F893C19C5EF7900CEA910 /* twi.c */,
+				745F893D19C5EF7900CEA910 /* twi.h */,
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -633,6 +3071,7 @@
 				74198F9219C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198F9319C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Build" */ = {
 			isa = XCConfigurationList;
@@ -641,6 +3080,7 @@
 				74198F9519C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198F9619C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Document" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +3089,7 @@
 				74198F9819C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198F9919C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Distribute" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +3098,7 @@
 				74198F9B19C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198F9C19C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Boards" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +3107,7 @@
 				74198F9E19C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198F9F19C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Serial" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +3116,7 @@
 				74198FA119C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198FA219C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Upload" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +3125,7 @@
 				74198FA419C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198FA519C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Clean" */ = {
 			isa = XCConfigurationList;
@@ -689,6 +3134,7 @@
 				74198FA719C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198FA819C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Fast" */ = {
 			isa = XCConfigurationList;
@@ -697,6 +3143,7 @@
 				74198FAA19C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198FAB19C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Make" */ = {
 			isa = XCConfigurationList;
@@ -705,6 +3152,7 @@
 				74198FAD19C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198FAE19C5DADA00927C4C /* Build configuration list for PBXLegacyTarget "Debug" */ = {
 			isa = XCConfigurationList;
@@ -713,6 +3161,7 @@
 				74198FB019C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74198FB119C5DADA00927C4C /* Build configuration list for PBXNativeTarget "Index" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +3170,7 @@
 				74198FB319C5DADA00927C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
